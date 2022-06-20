@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "yumeng first webpage test"
+title: "Welcome"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-this is yumeng. 
+Homepage of Tricky's & Twinkle's Father Yumi QwQ
 
 A data-driven personal website
 ======
