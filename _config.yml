@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yumi"
-  avatar           : "/test/yum.JPG"
+  avatar           : "/images/test/yum.JPG"
   bio              : "Cat-oholic"
   location         : "MA"
   employer         :
