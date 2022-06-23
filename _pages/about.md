@@ -17,10 +17,11 @@ Recently, I am playing with a nanopore named "ClyA" and exploring the potential 
 
 Ah! Btw, I am also a father of two baby kitties, Tricky&Twinkle!! (Figures are extrally charged~) 
 
-<<<<<<< HEAD
+## *<<<<<<< Warning!!!!>*
+
 ![tricky&twinkle](../images/tt.MOV)
 
-*People enjoyed the video above, please pay by scanning the 2D-code below QwQ*
+***People enjoyed the video above, please pay by scanning the 2D-code below QwQ***
 
 (Pretend to have a code)
 
