@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Bravo you for finding me!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Homepage of Tricky's & Twinkle's Father Yumi QwQ
+![Annia](/images/annia.png)
 
-The family of Yumi's
+## *Waku Waku*
+Hi! This is Yumeng, currently a chemistry grad student in UMass Amherst. I am doing some simulation concerning research in [Prof.Chen's lab](https://people.chem.umass.edu/jchenlab/). Here, we bridge the bio-system (i.e., membrane proteins, tumor proteins, and cellular systems) with atomistic/coarse-grained MD simulations. We also develope the enhanced sampling methods for more accurate and faster samplings :3
+
+
 ======
 
 ![Trick&Twinkle](/images/test/trick.jpeg)
