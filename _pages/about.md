@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![Annia](/images/annia.png)
+![Annia](../images/annia.png)
 
 ## *Waku Waku*
 Hi! This is Yumeng, currently a chemistry grad student in UMass Amherst. I am doing some simulation concerning research in [Prof.Chen's lab](https://people.chem.umass.edu/jchenlab/). Here, we bridge the bio-system (i.e., membrane proteins, tumor proteins, and cellular systems) with atomistic/coarse-grained MD simulations. We also develope the enhanced sampling methods for more accurate and faster samplings :3
@@ -16,7 +16,7 @@ Hi! This is Yumeng, currently a chemistry grad student in UMass Amherst. I am do
 
 ======
 
-![Trick&Twinkle](/images/test/trick.jpeg)
+![Trick&Twinkle](../images/test/trick.jpeg)
 
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge. [chen lab](https://people.chem.umass.edu/jchenlab/?_gl=1*1xvnvb5*_ga*NDg2MjI0NjE4LjE2NDY5MzI4MzE.*_ga_21RLS0L7EB*MTY1NTc4MDI3Ny4zMC4wLjE2NTU3ODAyNzcuMA..&_ga=2.174037095.51543407.1655780278-486224618.1646932831)
 
