@@ -15,9 +15,11 @@ Hi! This is Yumeng, currently a chemistry grad student in UMass Amherst. I am do
 
 Recently, I am playing with a nanopore named "ClyA" and exploring the potential gestures of proteases dancing in the pore. 
 
-Ah! Btw, I am also a father of two baby kitties, Tricky&Twinkle!! (Figures are extra charged~) 
+Ah! Btw, I am also a father of two baby kitties, Tricky&Twinkle!! (Figures are extrally charged~) 
 
-![Trick&Twinkle](../images/tt.mov)
+![tricky&twinkle](../images/tt.mov)
 
-***People enjoyed the video above, please pay by scanning the code below QwQ
+*People enjoyed the video above, please pay by scanning the 2D-code below QwQ*
+(Pretend to have a code)
+
 (To be continued...)
