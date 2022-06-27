@@ -1,4 +1,9 @@
 ---
+layout: archive
+title: "Seeding"
+permalink: /portfolio/
+author_profile: true
+---
 ## [Seeding@Biosytem_I]$ SPIN/MPO
 
 <u>S</u>taphylococcal <u>P</u>eroxidase <u>IN</u>hibitor, SPIN, can bind to Myeloperoxidase (MPO) and inhibits MPO's activity while folding to a hairpin. 
