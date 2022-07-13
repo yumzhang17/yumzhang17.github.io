@@ -6,8 +6,8 @@ main:
   - title: "Fruits"
     url: /publications/
 
-#  -  title: "Talks"
-#    url: /talks/    
+  -  title: "QwQ"
+     url: /talks/    
 
 #  - title: "Teaching"
 #    url: /teaching/    
@@ -15,8 +15,8 @@ main:
 #  - title: "Portfolio"
 #    url: /portfolio/
     
-  - title: "A_Day"
-    url: /year-archive/
+#  - title: "A_Day"
+#    url: /year-archive/
     
   - title: "CV"
     url: /cv/
