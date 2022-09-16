@@ -19,7 +19,7 @@ Ah! Btw, I am also a father of two baby kitties, Tricky&Twinkle!! (Figures are e
 
 ## *<<<<<<< Warning!!!!>*
 
-![tricky&twinkle](../images/tt_new.mp4)
+<iframe width="553" height="524" src="https://www.youtube.com/embed/iHgesAk_Sik" title="Tricky&Twinkle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***People enjoyed the video above, please pay by scanning the barcode below QwQ***
 

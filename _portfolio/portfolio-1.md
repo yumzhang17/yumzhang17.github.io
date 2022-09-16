@@ -30,6 +30,8 @@ The nanopore tweezer is advanced in capturing the conformational dynamics of pro
 Here, we used GPU_accelerated HyRes II model in studying the ClyA/Proteases system, and focused on one critical mutation. We all look forward to the experimental data for identification!
 [Possible Configurations](/images/clya_over.png)
 
+[ClyA/Proteases](/images/ClyA.pdf)
+
 ## [Seeding@Methodology_I]$ HyRes II
 
 [HyRes](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d) is a powful corse-grained force field to drive faster MSES samplings for IDPs with much accurate secondary structure descriptions. However, HyRes proved to over-collasped IDPs especially for moderate sized ones due to the lacking of solvation term.
