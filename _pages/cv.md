@@ -6,5 +6,5 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-![CV](/images/yz_cv.pdf)
+![CV](/images/Yumeng_Zhang_resume.pdf)
 
