@@ -45,3 +45,12 @@ Replica Exchange with Solute Tempering (REST) is helpful in accelerating the exp
 Here, we treat the solue-solvent parameter freely and re-adjust it to approximatedly reproduce the optimal sampling under high temperatures.
 
 [REST3](/images/REST_intro.pdf)
+
+## [Seeding@Biosystem]$ LLPS
+
+Try to study the liquid-liqudi phase separation behavior using HyRes II model. We are interested in: mutation effects, IDP roles, and the separation dynamics.
+
+<iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+

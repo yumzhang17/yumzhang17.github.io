@@ -19,13 +19,20 @@ redirect_from:
 Breif introductions to Yumeng's research interest =w=
 
 > **Multi-scale advanced sampling methods.**
-> ![HyRes-AE](/images/hyres_ani_update.mp4)
+>> ![HyRes-AE](/images/hyres_ani_update.mp4)
 
 > "I am constructing both coarse-grained model and advanced sampling method that can help sample the intrinsically disordered proteins more accurately and efficiently."
 
 > **Multi-scale simulations for biomolecules.**
+>> <iframe width="933" height="525" src="https://www.youtube.com/embed/5FfRIcwVuv8" title="IDP_simulations_HyResII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 > "Applying the developed sampling methods, I studies bunches of biological systems that play critical roles in human body, like the tumor suppressor p53. Recently, I am playing with WNV NS2B/NS3 proteases, to see their conformational changes, on/off bindings and dynamics in nanopore. This is a project collaborated with the other group, which is super interesting and joyful!!"
+
+> **Coarse-grained simulations for LLPS.**
+
+> " With high accuracy of HyRes II model, especially the unique feature of the model on IDP descriptions, I am moving to using the model to study the liquid-liquid phase separation behaviors for biological systems! Let's see to which step we can reach!"
+
+>> <iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## *Miaov Miaov*
 
