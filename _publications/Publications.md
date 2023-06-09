@@ -1,4 +1,9 @@
 ---
+
+5. Y. Zhang, X. Liu* and J. Chen*, "Re-balancing replica exchange with solute tempering for sampling dynamic protein conformations", J. Chem. Theory Comput. (2023). [ACS](https://pubs.acs.org/doi/10.1021/acs.jctc.2c01139)
+
+4. Y. Zhang, X. Liu and J. Chen*, "Coupled binding and folding of SPIN N-terminal region in myeloperoxidase inhibition", Front. Mol. Biosci. (2023). [Frontiers](https://doi.org/10.3389/fmolb.2023.1130189)
+
 3. Y. Zhang, X. Liu* and J. Chen*, "Towards Accurate Coarsed-Grained Simulations of Disordered Proteins and Their Dynamic Interactions", J. Chem. Inf. Model (2022). [ACS](https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c00974)
 
 2. J. Zhao, X. Liu, A. Blayney, Y. Zhang, L. Gandy, F. Zhang, R. J. Linhardt, J. Chen, C. Baines, S. N. Loh and C. Wang, "Intrinsically disordered N-terminal domain (NTD) of p53 interacts with mitochondrial PTP regulator Cyclophilin D" <i>J. Mol. Biol.</i> 434, 167552 (2022).[JMB](https://pubmed.ncbi.nlm.nih.gov/35341741/)
