@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yumi"
   avatar           : "yum.png"
-  bio              : "Dog-otory Candidate && Cat-oholic"
+  bio              : "Dog-otory && Cat-oholic"
   location         : "MA"
-  employer         :
+  employer         : "Postdoc@MIT (2024 -)"
   pubmed           : 
-  googlescholar    : 
-  email            : "yumzhang@umass.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=IBblRNIAAAAJ&hl=en" 
+  email            : "yumzhang1205@gmail.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
