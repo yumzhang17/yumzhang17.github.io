@@ -7,9 +7,9 @@ author_profile: true
 [8] S. A. Shorkey#, Y. Zhang#, J. Sharp#, S. Clingman, L. Nguyen, J. Chen* and M. Chen*, "Tuning single-mol
 ecule ClyA nanopore tweezers for real-time tracking of flaviviral protease conformational dynamics" [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1)
 
-[7] S. Li, Y. Zhang and J. Chen, "Protein Backbone Interactions and Secondary Structures in Biomolecular Phase Separation", Biochem. Soc. Trans., BST20230618 (2024) (invited review) [Portland Press](https://portlandpress.com/biochemsoctrans/article/52/1/319/234050/Backbone-interactions-and-secondary-structures-in)
+[7] S. Li, Y. Zhang and J. Chen, "Protein Backbone Interactions and Secondary Structures in Biomolecular Phase Separation", *Biochem. Soc. Trans.*, BST20230618 **(2024)** (invited review) [Portland Press](https://portlandpress.com/biochemsoctrans/article/52/1/319/234050/Backbone-interactions-and-secondary-structures-in)
 
-[6] Y. Zhang#, S. Li#,*, X. Gong and J. Chen*, "Toward Accurate Simulations of Coupling between Protein Secondary Structure and Phase Separation", J. Am. Chem. Soc. 146, 342-357 (2024) [ACS](https://pubs.acs.org/doi/full/10.1021/jacs.3c09195), [UMass News](https://www.umass.edu/ials/news-and-events/research-chen-research-group-advances-molecular-modeling-biomolecular-condensates?j=2348716&sfmc_sub=70383339&l=1420_HTML&u=30984407&mid=524006326&jb=7), [Phys.Org](https://phys.org/news/2024-01-simulation-tool-advances-molecular-biomolecular.html)
+[6] Y. Zhang#, S. Li#,*, X. Gong and J. Chen*, "Toward Accurate Simulations of Coupling between Protein Secondary Structure and Phase Separation", *J. Am. Chem. Soc*. 146, 342-357 **(2024)** [ACS](https://pubs.acs.org/doi/full/10.1021/jacs.3c09195), [UMass News](https://www.umass.edu/ials/news-and-events/research-chen-research-group-advances-molecular-modeling-biomolecular-condensates?j=2348716&sfmc_sub=70383339&l=1420_HTML&u=30984407&mid=524006326&jb=7), [Phys.Org](https://phys.org/news/2024-01-simulation-tool-advances-molecular-biomolecular.html)
 
 [5] Y. Zhang, X. Liu* and J. Chen*, "Re-balancing replica exchange with solute tempering for sampling dynamic protein conformations", <i>J. Chem. Theory Comput</i>. (2023). [ACS](https://pubs.acs.org/doi/10.1021/acs.jctc.2c01139)
 
