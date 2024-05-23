@@ -30,7 +30,7 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 **Multi-scale advanced sampling methods.**
 
->> https://github.com/yumzhang17/yumzhang17.github.io/assets/62064245/c2a32033-fe49-4418-a907-e02a01c91062
+>> ![HyRes_Model](../images/hyres_ani_trim.mp4)
 
 > "See this powerful coarse-grained model!!." [Hyres](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d), [HyRes II](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.2c00974)
 
@@ -41,7 +41,7 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 **Liquid-liquid Phase separation**
 
->> <iframe width="609" height="360" src="https://www.youtube.com/embed/pmq-ZX5E7sI" title="LLPS (cell)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>> ![MLOs_cell](../images/mlos_cell.mp4)
 
 >> <iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
