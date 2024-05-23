@@ -10,37 +10,54 @@ redirect_from:
 
 ![Annia](../images/annia.png)
 
+**(Get better view from Safari)**
+
 ## *Waku Waku*
 
-**Hi!** This is Yumeng, currently a chemistry grad student in UMass Amherst. I am doing some simulation concerning research in [Prof.Chen's lab](https://people.chem.umass.edu/jchenlab/). Here, we bridge the bio-system (i.e., membrane proteins, tumor proteins, and cellular systems) with atomistic/coarse-grained MD simulations. We also develope the enhanced sampling methods for more accurate and faster samplings :3
+> *About Yumeng:*
+
+**Heyooo!** I am Yumeng Zhang, I am a computational biochemist. I currently work as a postdoc associate at [Prof. Zhang's Lab](https://zhanggroup.mit.edu/). My current research interest is to use machine-learning and Molecular dynamics simulations to understand the large scale biomolecular activities (like liquid-liquid phase separation.) 
+
+I had my Ph.D. degree from University of Massachusetts Amherst on 2024 Feb. I was a grad student in [Prof. Chen's lab](https://people.chem.umass.edu/jchenlab/). (Many unforgettable and vivid  memories there! wow!)
+
+I am still not 100% sure about the direction of my future career... But I am walking on the academic path towards science (for now, on 2024).
+
+Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games, and ACGer. 
 
 ## *Drude Drude*
 
-Breif introductions to Yumeng's research interest =w=
+> *About Yumeng's research*
 
-> **Multi-scale advanced sampling methods.**
->> ![HyRes-AE](/images/hyres_ani_update.mp4)
+**Multi-scale advanced sampling methods.**
 
-> "I am constructing both coarse-grained model and advanced sampling method that can help sample the intrinsically disordered proteins more accurately and efficiently."
+>> <iframe width="640" height="360" src="https://www.youtube.com/embed/H8nq5g0VLjI" title="HyRes Coarse-Grained Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-> **Multi-scale simulations for biomolecules.**
+> "See this powerful coarse-grained model!!." [Hyres](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d), [HyRes II](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.2c00974)
+
+**Multi-scale simulations for biomolecules.**
 >> <iframe width="933" height="525" src="https://www.youtube.com/embed/5FfRIcwVuv8" title="IDP_simulations_HyResII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> "Applying the developed sampling methods, I studies bunches of biological systems that play critical roles in human body, like the tumor suppressor p53. Recently, I am playing with WNV NS2B/NS3 proteases, to see their conformational changes, on/off bindings and dynamics in nanopore. This is a project collaborated with the other group, which is super interesting and joyful!!"
+> "See these biomolecular dynamics!!" 
 
-> **Coarse-grained simulations for LLPS.**
+**Liquid-liquid Phase separation**
 
-> " With high accuracy of HyRes II model, especially the unique feature of the model on IDP descriptions, I am moving to using the model to study the liquid-liquid phase separation behaviors for biological systems! Let's see to which step we can reach!"
+>> <iframe width="609" height="360" src="https://www.youtube.com/embed/pmq-ZX5E7sI" title="LLPS (cell)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 >> <iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+> "See the dynamics of the membraneless organels (top) and biomolecular condensate (down)!" [LLPS](https://pubs.acs.org/doi/full/10.1021/jacs.3c09195)
+
+**(To be continued...)**
+
 ## *Miaov Miaov*
 
-Ah! Btw, I am also a **father of two baby kitties**, Tricky&Twinkle!! Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. study. She was named tricky since she missed the Halloween and I couldn't give her a treat. Twinkle was picked up on 2022/01/22. And she also becomes a light to shed tricky&my life in a very specific period. I so love my babies that they are really my treasure! Every moment in my life, they accompany with me, confort me, encourage me, and warm me. It's my biggest lucky to meet and live with them!! Miao~~
+> *Tricky & Twinkle*
+
+Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. study. She was called tricky since she missed the Halloween and I couldn't give her a treat. Twinkle was picked up on 2022/01/22. And she also becomes a light to shed tricky&my life in a very specific period. I so love my babies that they are really my treasure! Every moment in my life, they accompany with me, confort me, encourage me, and warm me. It's my biggest lucky to meet and live with them!! Miao~~
 
 (Figures are extrally charged~) 
 
-## *<<<<<<< Warning!!!!>*
+## *<<<Here They are!!>>>*
 
 <iframe width="553" height="524" src="https://www.youtube.com/embed/iHgesAk_Sik" title="Tricky&Twinkle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -50,7 +67,7 @@ Ah! Btw, I am also a **father of two baby kitties**, Tricky&Twinkle!! Tricky cam
 
 ## *Muk Muk*
 
-Finally, it's so nice to meet you! Yumeng is also a game player that she enjoys bunches of games, especially **Metroidvania**. Her favorite one is 'ori and the blind music', which has super super beautiful main theme music (as well as story). She recently is playing Hollow Knight... well! It's too hard... Another kind of game she favors is **simulation**. (It's common that simulation people like simulation games, right~). When she is sometimes tired, she will log in to her island on animal crossing to relax. 
+Finally, again, it's so nice to meet you! I am also a game player that she enjoys bunches of games, especially **Metroidvania**. My favorite one is 'ori and the blind music', which has super super beautiful main theme music (as well as story). I also enjoy the animal crossing a lot! My favorite character is Fang lol, send all gifts to him~ 
 
 -----------------------------
 
