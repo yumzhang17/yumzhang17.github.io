@@ -30,7 +30,7 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 **Multi-scale advanced sampling methods.**
 
->> <iframe width="640" height="360" src="https://www.youtube.com/embed/H8nq5g0VLjI" title="HyRes Coarse-Grained Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>> https://github.com/yumzhang17/yumzhang17.github.io/assets/62064245/c2a32033-fe49-4418-a907-e02a01c91062
 
 > "See this powerful coarse-grained model!!." [Hyres](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d), [HyRes II](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.2c00974)
 
