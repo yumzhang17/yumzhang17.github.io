@@ -27,3 +27,8 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+# Gemfile
+gem 'nokogiri', '~> 1.13'
+gem 'faraday-retry'
+gem 'jekyll', '3.9.5'
+
