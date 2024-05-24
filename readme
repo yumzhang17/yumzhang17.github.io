@@ -23,7 +23,9 @@ to Youtube
 Curretly:
 
 [page_site_"Seeding":]: _portfolio
-modify _portfolio/portfolio-1.md
+modify _pages/portfolio-1.md
+
+better to copy to  _portfolio/portfolio-1.md
 
 [page_site_"Fruits":]: _pages
 modify publications.md

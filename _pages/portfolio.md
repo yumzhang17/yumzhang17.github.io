@@ -4,59 +4,92 @@ title: "Seeding"
 permalink: /portfolio/
 author_profile: true
 ---
-## [Seeding@Biosytem_I]$ SPIN/MPO
 
-<u>S</u>taphylococcal <u>P</u>eroxidase <u>IN</u>hibitor, SPIN, can bind to Myeloperoxidase (MPO) and inhibits MPO's activity while folding to a hairpin. 
-![SPIN&MPO](/images/spin.png)
-Here, we studied two SPINs that showed high sequence identity but different inhibitory abilities with atomistic simulations.
+<script>
+function toggleVisibility(section) {
+  var x = document.getElementById(section);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
-[SPIN&MPO](/images/spin_over.png)
+## <span style="color: green;">[Seeding@Biosystems]$ Intrinsically Disordered Proteins</span>
+><button onclick="toggleVisibility('spinMPO')">Enzyme Inhibition: SPIN/MPO</button>
+<div id="spinMPO" style="display:none;">
+<u>S</u>taphylococcal <u>P</u>eroxidase <u>IN</u>hibitor, SPIN, can bind to Human Myeloperoxidase (MPO) enzyme and inhibits the enzyme activities to prevent immune killing.
 
-## [Seeding@Biosytem_II]$ CypD/p53-NTD
+<img src="/images/spin.png" alt="SPIN&MPO">
 
-Cyclophilin D (CypD) is the only confirmed component of mitochondrial permeability transition pore (mPTP) that will be regulated by p53 N-terminal domain (p53-NTD).
-![CypD/p53](/images/cypd.png)
-Here, we used a CG force field (HyRes) to study the dynamics between p53-NTD and CypD, including the hot spots on CypD surface, the driven force and the conformational changes of p53-NTD. One can go to [ref](https://reader.elsevier.com/reader/sd/pii/S0022283622001267?token=8FEB5F470DD7EE679C79BCF9C63E6067437084C7C0B5165257730E7D2A802AAA9A69D34BADFB1A5175CF6B7DCAE0E740&originRegion=us-east-1&originCreation=20220627202131) for more detailed reading :3
+<p>Studies have identified a disorder-to-order transition on SPIN's N-terminal domain (NTD), which functions to inhibit the enzyme activity. However, the details of SPIN's functional mechanisms lack understanding.</p>
 
-[CypD/p53](/images/cypd_over.png)
+<p>Here, we studied two SPIN homologs that present high sequence identity but different inhibitory abilities. By performing atomistic simulations, we discovered different binding and folding mechanisms adopted by two homologs, which could help to explain their functional discrepancies. <a href="https://www.frontiersin.org/articles/10.3389/fmolb.2023.1130189/full">Read more here.</a></p>
+</div>
 
-## [Seeding@Biosytem_III]$ KCNQ/CAM
+><button onclick="toggleVisibility('cypDp53')">Cellular Regulation: CypD/p53</button>
+<div id="cypDp53" style="display:none;">
+Cyclophilin D (CypD) is one crucial confirmed component of mitochondrial permeability transition pore (mPTP) regulator, which will be regulated by p53 N-terminal domain (p53-NTD).
 
-KCNQ can undergo belt<->straight conformational changes upon CAM's regulations. Such regulation is related to the 'AO' (Activate open)/'IO' (intermediate open) states of KCNQ. 
-![KCNQ](/images/kcnq.png)
-Here, we... we plan to study the NTD effects in CAM/KCNQ bindings! (though I did little work QAQ)
+<img src="/images/cypd.png" alt="CypD/p53">
 
-A story TBD :3
+<p>Here, we studied the dynamic interactions between p53-NTD and CypD. We observed a p53-NTD binding surface on CypD, which were further identified by NMR experiments. The electornic interactions are found to be the driven forces for CypD/p53-NTD interactions. <a href="https://pubmed.ncbi.nlm.nih.gov/35341741/">Read more here.</a></p>
+</div>
 
-## [Seeding@Biosytem_IV]$ ClyA/Proteases
+><button onclick="toggleVisibility('llps')">Liquid-liquid Phase Separation</button>
+<div id="llps" style="display:none;">
+Liquid-liquid phase separation (LLPS) is one critical phenomena populated in cells that help biomolecules organization, regulation, and function. There are many signficant factors that may affect biomolecular phase separations. Particularly, the secondary structure dynamics play significant roles in regulating LLPS. 
 
-The nanopore tweezer is advanced in capturing the conformational dynamics of protein at single molecular level! MD simulations, on the other hand, can uniquely offer the insights to resolve those possible conformations! 1+1 >> 2 
-![ClyA](/images/clya.png)
-Here, we used GPU_accelerated HyRes II model in studying the ClyA/Proteases system, and focused on one critical mutation. We all look forward to the experimental data for identification!
-[Possible Configurations](/images/clya_over.png)
+<img src="/images/llps_2nd.png" alt="LLPS&2nd">
 
-[ClyA/Proteases](/images/ClyA.pdf)
+<p>Here, we studied how the dynamics of IDP secondary structures could affect their LLPS properties.</p> 
 
-## [Seeding@Methodology_I]$ HyRes II
+<video controls width="250">
+    <source src="/images/from_cond.mp4" type="video/mp4">
+</video>
+<video controls width="250">
+    <source src="/images/from_disp.mp4" type="video/mp4">
+</video>
 
-[HyRes](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d) is a powful corse-grained force field to drive faster MSES samplings for IDPs with much accurate secondary structure descriptions. However, HyRes proved to over-collasped IDPs especially for moderate sized ones due to the lacking of solvation term.
-![HyRes](/images/hyres.png)
-Here, we recalibrate the force field, which now can capture the long-range non-specific interactions of IDPs with high accuracy.
+<p>Our simulations suggests how mutations could affect LLPS by affecting the protein secondary strcutures. <a href="https://pubs.acs.org/doi/full/10.1021/jacs.3c09195">Read more here.</a></p>
+</div>
 
-[HyRes II](/images/HyRes_intro.pdf)
+><button onclick="toggleVisibility('ClyA')">Nanopore Tweezer: WNV Proteases</button>
+<div id="ClyA" style="display:none;">
+The nanopore tweezer is advanced in capturing the conformational dynamics of protein at single molecular level! MD simulations, on the other hand, can offer the significant molecular insights to resolve the current signal related conformations! The combination of two methods can achieve 1+1 >> 2 effects!
 
-## [Seeding@Methodology_II]$ REST3
+<img src="/images/clya.png" alt="clya">
 
+<p>Here, we applied nanopore tweezer as a powerful tool to investigate the conformational dynamics of West Nile Virus NS2B/NS3 proteases, which are potential drug target for WNV infection treatments. Our simulations identified a significant protein binding position on ClyA, which could be specifically engineered to capture NS2B/NS3 dynamics regarding their functional activities. <a href="https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1">Read more here.</a></p>
+</div>
+
+
+## <span style="color: blue;">[Seeding@Methodologies]$ Molecular Dynamics Simulations</span>
+<button onclick="toggleVisibility('hyres')">CG Model: HyRes II</button>
+<div id="hyres" style="display:none;">
+<video controls width="450">
+    <source src="/images/hyres_ani_update.mp4" type="video/mp4">
+</video>
+<p><a href="https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d">HyRes, </a><a href="https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c00974">HyRes II.</a></p>
+
+HyRes, the hydrid resolution coarse-grained model, was first developed by <a href="https://scholar.google.com/citations?user=Lz-OnFEAAAAJ">Dr. Liu</a>, with qualitative predictions towards IDP secondary structures. The model has been further optimzied to more quantatatively to study IDP non-specific interactions and secondary structures. 
+
+<p>HyRes II presents high accuracy and performance when studing long-time scale (like <a href="https://pubs.acs.org/doi/full/10.1021/jacs.3c09195">llps.</a>) and complex system dynamics (like <a href="https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1">proteases in ClyA nanopore.</a>).</p>
+
+<p>If you are interested, the model can be achieved at:</p>
+<p><a href="https://github.com/lslumass/HyRes_GPU">GitHub_link.</a></p>
+<p>HyRes II is now compiled with OpenMM and enabled GPU acceleration!</p>
+
+</div>
+
+
+<button onclick="toggleVisibility('rest3')">Enhanced sampling methods: REST3</button>
+<div id="rest3" style="display:none;">
 Replica Exchange with Solute Tempering (REST) is helpful in accelerating the explicited simulations. However, REST2 artifically scaled down the solute-solvent interactions under high temperature conditions, which over-compacted IDPs
-![REST](/images/rest.png)
-Here, we treat the solue-solvent parameter freely and re-adjust it to approximatedly reproduce the optimal sampling under high temperatures.
+<p><img src="/images/rest.png" alt="REST3"></p>
+<p>Here, we treat the solue-solvent parameter freely and re-adjust it to approximatedly reproduce the optimal sampling under high temperatures. <a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01139">Read more here.</a></p>
 
-[REST3](/images/REST_intro.pdf)
-
-## [Seeding@Biosystem]$ LLPS
-
-Try to study the liquid-liqudi phase separation behavior using HyRes II model. We are interested in: mutation effects, IDP roles, and the separation dynamics.
-
-<iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
