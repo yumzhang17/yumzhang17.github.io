@@ -1,16 +1,39 @@
 ---
 layout: archive
-title: "Adventure of Yumi"
+title: "Yumeng's Footprints in U.S."
 permalink: /talks/
 author_profile: true
 ---
+<iframe src="/images/footprint_20240524.html" width="800" height="400" style="border:none;"></iframe>
 
-{% if site.talkmap_link == true %}
+<div style="text-align:center;">
+  <a href="/research-talks/" class="category-link" style="color: red;">
+    <div>WordyMe about Research</div>
+    <img src="/images/work_life.png" alt="Research" style="width:250px; height:auto;">
+  </a>
+  <a href="/life-talks/" class="category-link" style="color: blue;">
+    <div>WordyMe about Life</div>
+    <img src="/images/TT.png" alt="Life" style="width:250px; height:auto;">
+  </a>
+</div>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-{% endif %}
+<style>
+.category-link {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 250px; /* Adjust this width based on your actual needs */
+  vertical-align: top;
+}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+.category-link img {
+  width: 250px; /* Ensure images are the same width */
+  height: auto;
+}
+
+.category-link div {
+  margin-bottom: 5px; /* Space between text and image */
+}
+</style>
+

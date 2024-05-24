@@ -31,7 +31,11 @@ better to copy to  _portfolio/portfolio-1.md
 modify publications.md
 
 [page_site_"QwQ":]: _talks
-modify _portfolio/*.md
+modify the layout in: _pages/talk.html
+modify the navigation in _data/navigate.yml
+modify _talks/*.md
+Add _pages/research.html
+Add _pages/life.html
 
 [page_site_"CV":]: _pages
 modify cv.md

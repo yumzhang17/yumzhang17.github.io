@@ -1,0 +1,13 @@
+/* Custom CSS for Talk Page Styling */
+article.post h1 {
+    margin-bottom: 0.5em; /* Reduces the space below the h1 tag */
+}
+
+article.post h1 + p {
+    margin-top: 0.5em; /* Reduces the space above the first paragraph */
+}
+<head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+

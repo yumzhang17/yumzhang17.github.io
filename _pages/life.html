@@ -1,0 +1,18 @@
+---
+layout: default
+title: "WordyMe about Life"
+permalink: /life-talks/
+author_profile: true
+---
+
+<div class="posts">
+  {% for post in site.talks %}
+    {% if post.category == 'Life' %}
+      <div>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
