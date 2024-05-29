@@ -5,15 +5,15 @@
   import { getDatabase, ref, push, set, onValue } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
   // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyBlKtT1R2eu_aHrdaUZR6spUM7bn8KPv5s",
   authDomain: "leave-your-voice.firebaseapp.com",
-  databaseURL: "https://leave-your-voice-default-rtdb.firebaseio.com/",
   projectId: "leave-your-voice",
   storageBucket: "leave-your-voice.appspot.com",
   messagingSenderId: "500860553315",
-  appId: "1:500860553315:web:69311c07852c9fcd4d5056",
-  measurementId: "G-QNRKG7171V"
+  appId: "1:500860553315:web:119ceccf41c0fc7b4d5056",
+  measurementId: "G-CBEPQFQHVJ"
 };
 
 
