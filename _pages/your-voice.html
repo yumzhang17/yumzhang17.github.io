@@ -1,0 +1,36 @@
+---
+layout: archive
+title: "Leave Your Voice Here~"
+permalink: /your-voice/
+author_profile: true
+---
+<div id="commentSection">
+    <!-- Text input for comments with formatting options -->
+    <textarea id="commentInput" placeholder="Leave your comment here"></textarea><br>
+    <button onclick="insertTag('strong')">Bold</button>
+    <button onclick="insertTag('em')">Italic</button>
+    <select id="fontStyle" onchange="setFontStyle()">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+
+    <!-- Nickname and Anonymous Option -->
+    <label for="nickname">Nickname (optional):</label>
+    <input type="text" id="nickname" placeholder="Enter your nickname">
+    <label><input type="checkbox" id="anonymous" onchange="toggleNickname()"> Post as anonymous</label><br>
+
+    <!-- Submit Button -->
+    <button onclick="submitComment()">Submit</button>
+
+    <!-- Where comments will be displayed -->
+    <div id="commentsDisplay"></div>
+</div>
+
+<script src="/assets/js/your-voice.js" type="module"></script>
+
+
+
+</div>
+
+<script src="/assets/js/your-voice.js"></script>

@@ -1,0 +1,41 @@
+Steps to Set Up Firebase:
+Go to the Firebase Console: Open Firebase Console, and sign in with your Google account.
+
+Create a New Project: Follow the instructions to create a new Firebase project.
+
+Add Firebase to Your Web App:
+
+Click on the Web icon (</>) to register your app.
+Follow the setup instructions provided by Firebase to add Firebase SDK to your web application.
+Enable Realtime Database:
+
+In the Firebase console, navigate to "Realtime Database" and create a database.
+Set up the database rules for public read and write access (for testing purposes; you should restrict this later based on your requirements).
+json
+Copy code
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+JavaScript File: comments.js
+This script will handle connecting to Firebase, submitting comments, and displaying them on your page.
+
+javascript
+Copy code
+// Your web app's Firebase configuration (replace with your actual config details)
+var firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    databaseURL: "https://YOUR_DATABASE_NAME.firebaseio.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_BUCKET.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Reference to your database service
