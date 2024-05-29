@@ -6,14 +6,16 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "leave-your-voice.firebaseapp.com",
-    projectId: "leave-your-voice",
-    storageBucket: "leave-your-voice.appspot.com",
-    messagingSenderId: "500860553315",
-    appId: "1:500860553315:web:69311c07852c9fcd4d5056",
-    measurementId: "G-QNRKG7171V"
-  };
+  apiKey: "YOUR_API_KEY",
+  authDomain: "leave-your-voice.firebaseapp.com",
+  databaseURL: "https://leave-your-voice-default-rtdb.firebaseio.com/",
+  projectId: "leave-your-voice",
+  storageBucket: "leave-your-voice.appspot.com",
+  messagingSenderId: "500860553315",
+  appId: "1:500860553315:web:69311c07852c9fcd4d5056",
+  measurementId: "G-QNRKG7171V"
+};
+
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
@@ -101,5 +103,9 @@ function toggleNickname() {
 }
 
   // Load comments when the window loads
-  window.addEventListener('load', displayComments);
+  window.addEventListener('load', () => {
+  console.log("Page loaded, displaying comments...");
+  displayComments();
+});
+
 </script>
