@@ -69,7 +69,7 @@ function setFontStyle() {
     textarea.style.fontFamily = selectedFont;
 }
 
-// leave name functions 
+// leave name functions
 function submitComment() {
     const commentInput = document.getElementById('commentInput');
     const nicknameInput = document.getElementById('nickname');
@@ -93,6 +93,7 @@ function submitComment() {
     commentInput.value = '';
     nicknameInput.value = '';
 }
+
 
 function toggleNickname() {
     const nicknameInput = document.getElementById('nickname');
