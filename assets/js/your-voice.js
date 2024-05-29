@@ -1,43 +1,26 @@
-<script type="module">
   // Import the functions you need from the SDKs you need
+  import { getDatabase, ref, push, set, onValue } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
-  import { getDatabase, ref, push, set, onValue } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-  apiKey: "AIzaSyBlKtT1R2eu_aHrdaUZR6spUM7bn8KPv5s",
-  authDomain: "leave-your-voice.firebaseapp.com",
-  projectId: "leave-your-voice",
-  storageBucket: "leave-your-voice.appspot.com",
-  messagingSenderId: "500860553315",
-  appId: "1:500860553315:web:119ceccf41c0fc7b4d5056",
-  measurementId: "G-CBEPQFQHVJ"
-};
-
+    apiKey: "AIzaSyBlKtT1R2eu_aHrdaUZR6spUM7bn8KPv5s",
+    authDomain: "leave-your-voice.firebaseapp.com",
+    projectId: "leave-your-voice",
+    storageBucket: "leave-your-voice.appspot.com",
+    messagingSenderId: "500860553315",
+    appId: "1:500860553315:web:119ceccf41c0fc7b4d5056",
+    measurementId: "G-CBEPQFQHVJ"
+  };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-  const db = getDatabase(app);
 
-  // Function to submit a comment
-  function submitComment() {
-    const commentInput = document.getElementById('commentInput');
-    const comment = commentInput.value;
-    if (comment.trim() !== "") {
-      const commentsRef = ref(db, 'comments');
-      const newCommentRef = push(commentsRef);
-      set(newCommentRef, {
-        text: comment,
-        timestamp: Date.now()
-      });
-      commentInput.value = ''; // Clear the input after sending
-    } else {
-      alert("Please enter a comment.");
-    }
-  }
   // display functions
   function displayComments() {
     const commentsRef = ref(db, 'comments');
@@ -90,10 +73,13 @@ function submitComment() {
         text: comment,
         timestamp: Date.now(),
         nickname: nickname
+    }).then(() => {
+        console.log("Comment added to database");
+        commentInput.value = '';
+        nicknameInput.value = '';
+    }).catch((error) => {
+        console.error("Error writing comment to database:", error);
     });
-
-    commentInput.value = '';
-    nicknameInput.value = '';
 }
 
 
@@ -108,4 +94,3 @@ function toggleNickname() {
   displayComments();
 });
 
-</script>
