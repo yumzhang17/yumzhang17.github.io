@@ -1,4 +1,6 @@
-  // Import the functions you need from the SDKs you need
+console.log("JavaScript file loaded");
+
+// Import the functions you need from the SDKs you need
   import { getDatabase, ref, push, set, onValue } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
@@ -20,6 +22,8 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+  const db = getDatabase(app);
+
 
   // display functions
   function displayComments() {
@@ -81,6 +85,7 @@ function submitComment() {
         console.error("Error writing comment to database:", error);
     });
 }
+console.log(submitComment);
 
 
 function toggleNickname() {
@@ -93,4 +98,11 @@ function toggleNickname() {
   console.log("Page loaded, displaying comments...");
   displayComments();
 });
+
+//window.submitComment = function() {
+//    const commentInput = document.getElementById('commentInput');
+//    const nicknameInput = document.getElementById('nickname');
+//    const anonymousCheckbox = document.getElementById('anonymous');
+//    // Your existing code here...
+//}
 
