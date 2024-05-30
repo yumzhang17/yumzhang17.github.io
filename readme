@@ -51,3 +51,5 @@ modify cv.md
 4. If I want to mofify the functions, modify:
 /assets/js/your-voice.js
 
+to delete some comments: 
+https://console.firebase.google.com/u/0/project/leave-your-voice/database/leave-your-voice-default-rtdb/data

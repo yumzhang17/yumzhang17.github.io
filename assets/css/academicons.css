@@ -325,3 +325,13 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+
+.comment-text {
+    font-weight: bold;
+    color: blue;
+}
+
+.comment-date {
+    color: grey;
+}
+

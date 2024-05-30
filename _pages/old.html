@@ -1,9 +1,9 @@
----
-layout: archive
-title: "Leave Your Voice Here~"
-permalink: /your-voice/
-author_profile: true
----
+#---
+#layout: archive
+#title: "Leave Your Voice Here~"
+#permalink: /your-voice/
+#author_profile: true
+#---
 ## Test6
 
 <!DOCTYPE html>
@@ -17,10 +17,18 @@ author_profile: true
     <div id="commentSection">
         <!-- Text input for comments with formatting options -->
         <textarea id="commentInput" placeholder="Leave your comment here"></textarea><br>
+        <button onclick="insertTag('strong')">Bold</button>
+        <button onclick="insertTag('em')">Italic</button>
+        <select id="fontStyle" onchange="setFontStyle()">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
 
         <!-- Nickname and Anonymous Option -->
         <label for="nickname">Nickname (optional):</label>
         <input type="text" id="nickname" placeholder="Enter your nickname">
+        <input type="checkbox" id="anonymous" onchange="toggleNickname()">
 
         <!-- Submit Button -->
         <button id="submitBtn">Submit</button>
