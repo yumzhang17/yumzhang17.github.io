@@ -326,12 +326,13 @@
   margin-left: .3em;
 }
 
-.comment-text {
+.main-text {
     font-weight: bold;
     color: blue;
 }
 
-.comment-date {
+.date-text {
     color: grey;
+    font-style: italic;
 }
 

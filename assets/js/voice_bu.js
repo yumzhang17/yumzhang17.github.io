@@ -31,7 +31,7 @@ function displayComments() {
     onValue(orderedQuery, (snapshot) => {
         const commentsDisplay = document.getElementById('commentsDisplay');
         commentsDisplay.innerHTML = '';  // Clear previous comments
-        const commentsArray = [];  // Define the array to hold comments
+        const commentsArray = [];
         snapshot.forEach((childSnapshot) => {
             commentsArray.push(childSnapshot.val());
         });
@@ -40,26 +40,7 @@ function displayComments() {
             const commentDiv = document.createElement('div');
             const date = new Date(comment.timestamp);
             const displayName = comment.nickname ? comment.nickname : "Anonymous";
-
-            // Create the comment text span
-            const commentTextSpan = document.createElement('span');
-            commentTextSpan.className = 'comment-text';
-            commentTextSpan.textContent = `"${comment.text}"`;
-
-            // Create the display name span
-            const displayNameSpan = document.createElement('span');
-            displayNameSpan.className = 'display-name';
-            displayNameSpan.textContent = ` - by ${displayName}`;
-
-            // Create the date span
-            const dateSpan = document.createElement('span');
-            dateSpan.className = 'date-text';
-            dateSpan.textContent = ` on ${date.toLocaleDateString()} at ${date.toLocaleTimeString()}`;
-
-            // Append spans to div
-            commentDiv.appendChild(commentTextSpan);
-            commentDiv.appendChild(displayNameSpan);
-            commentDiv.appendChild(dateSpan);
+            commentDiv.textContent = `${displayName}: ${comment.text} - posted on ${date.toLocaleDateString()} at ${date.toLocaleTimeString()}`;
             commentsDisplay.appendChild(commentDiv);
         });
     });

@@ -40,9 +40,6 @@ Add _pages/life.html
 [page_site_"CV":]: _pages
 modify cv.md
 
-
-
-
 [leave-your-voice:]
 1. Add this navigation to data/navigation.yml
 2. add your-voice.html in _pages.
@@ -50,6 +47,9 @@ modify cv.md
 
 4. If I want to mofify the functions, modify:
 /assets/js/your-voice.js
+
+5. If I want to modify the font style, modify:
+/assets/css/your-voice.css
 
 to delete some comments: 
 https://console.firebase.google.com/u/0/project/leave-your-voice/database/leave-your-voice-default-rtdb/data

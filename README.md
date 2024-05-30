@@ -3,10 +3,24 @@
 
 Author: Yumeng Zhang
 
-Update date: 2024/May
+**2024-05**: 
 
-## Introduction
+```
+The website updated "leave your voice" function. 
+
+Looking forward to your comments in the "Your Voice" page.
+```
+
+## About
 This is a repo for Yumeng's personal website.
 
-Great acknowledge to Dr. Nordquist, Dr. Gong, Ph.D. Candidate Jian Huang! Thank you all for helping me with this cool thing!
+Great acknowledge to 
+
+**Dr. Nordquist**, 
+
+**Dr. Gong**, 
+
+**Ph.D. Candidate Jian Huang**!
+
+Thank you all for helping me with this cool thing!
 
