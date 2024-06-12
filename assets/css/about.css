@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Choose a font similar to your sample */
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background for visibility */
+    color: #333; /* Dark text color */
+}
+
+.text {
+    max-width: 960px; /* Limit text width for readability */
+    text-align: center;
+}
+
+#intro {
+    background-image: url('/images/annia.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#research, #personal {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.6; /* Increased line height for readability */
+}
+

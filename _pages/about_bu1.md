@@ -1,12 +1,12 @@
----
-permalink: /
-title: "Bravo you for finding me!"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+#---
+#permalink: /
+#title: "Bravo you for finding me!"
+#excerpt: "About me"
+#author_profile: true
+#redirect_from: 
+#  - /about/
+#  - /about.html
+#---
 
 ![Annia](../images/annia.png)
 
@@ -16,9 +16,9 @@ redirect_from:
 
 > *About Yumeng:*
 
-Hi! I am Yumeng Zhang, a computational biochemist. I currently work as a postdoc associate at [Prof. Zhang's Lab](https://zhanggroup.mit.edu/). I am tring to use machine-learning and Molecular dynamics simulations to understand the large scale biomolecular activities (like liquid-liquid phase separation.) 
+**Heyooo!** I am Yumeng Zhang, I am a computational biochemist. I currently work as a postdoc associate at [Prof. Zhang's Lab](https://zhanggroup.mit.edu/). My current research interest is to use machine-learning and Molecular dynamics simulations to understand the large scale biomolecular activities (like liquid-liquid phase separation.) 
 
-I had my Ph.D. degree from University of Massachusetts Amherst on 2024 Feb. I was a grad student in [Prof. Chen's lab](https://people.chem.umass.edu/jchenlab/). (Many unforgettable and vivid memories there! wow!) 
+I had my Ph.D. degree from University of Massachusetts Amherst on 2024 Feb. I was a grad student in [Prof. Chen's lab](https://people.chem.umass.edu/jchenlab/). (Many unforgettable and vivid  memories there! wow!)
 
 I am still not 100% sure about the direction of my future career... But I am walking on the academic path towards science (for now, on 2024).
 
@@ -27,8 +27,6 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 ## *Drude Drude*
 
 > *About Yumeng's research*
-
-(All animations are made by Yumeng)
 
 **Multi-scale advanced sampling methods.**
 
@@ -45,6 +43,7 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 <iframe width="609" height="360" src="https://www.youtube.com/embed/pmq-ZX5E7sI" title="LLPS (cell)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="716" height="525" src="https://www.youtube.com/embed/WAdvFVA7R0g" title="Liquid-liquid Phase Separation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 > "See the dynamics of the membraneless organels (top) and biomolecular condensate (down)!" [LLPS](https://pubs.acs.org/doi/full/10.1021/jacs.3c09195)
 
@@ -56,6 +55,9 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. study. She was called tricky since she missed the Halloween and I couldn't give her a treat. Twinkle was picked up on 2022/01/22. And she also becomes a light to shed tricky&my life in a very specific period. I so love my babies that they are really my treasure! Every moment in my life, they accompany with me, confort me, encourage me, and warm me. It's my biggest lucky to meet and live with them!! Miao~~
 
+(Figures are extrally charged~) 
+
+## *<<<Here They are!!>>>*
 
 <iframe width="553" height="524" src="https://www.youtube.com/embed/iHgesAk_Sik" title="Tricky&Twinkle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
