@@ -12,7 +12,7 @@ redirect_from:
 <!-- Add the CSS block at the top of your Markdown file -->
 <style>
   .cute-frame {
-    border: 3px dashed pink;
+    border: 3px dashed grey;
     padding: 20px;
     margin: 10px;
     background-color: #fdf5e6; /* light beige */
@@ -26,7 +26,7 @@ redirect_from:
 <div class="cute-frame">
   <p><i>Have you noticed my avatar? It features <i>Yakou</i>, from a Japanese anime called <i>Mononoke</i>. Yakou’s job is to exorcise <i>youkai</i> (spirits) from the world. He wields a sword capable of slaying these spirits, but to use it, he must first uncover three key elements of the opponent: their 'form,' 'truth,' and 'reason.' Only then can the sword be drawn, and the spirit vanquished.</i></p>
 
-  <p><i>Similarly, in my world, I wield a weapon called <i>biophysics</i> to explore the 'form,' 'truth,' and 'reason' of <i>bio-spirits</i>.</i></p>
+  <p><i>Similarly, in my world, I wield a weapon called <i>Biophysics</i>, which helps me to explore the 'form,' 'truth,' and 'reason' of <i>bio-spirits</i>.</i></p>
 </div>
 
 
