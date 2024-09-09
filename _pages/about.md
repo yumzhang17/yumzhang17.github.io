@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bravo you for finding me!"
+title: "Hi! Nice to meet you~"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,7 +9,27 @@ redirect_from:
 ---
 
 <!--![Annia](../images/annia.png)-->
-<p style="color:grey;"><i>Have you noticed my avatar? It features <i>Yakou</i>, from a Japanese anime called <i>Mononoke</i>. Yakou’s job is to exorcise <i>youkai</i> (spirits) from the world. He wields a sword capable of slaying these spirits, but to use it, he must first uncover three key elements of the opponent: their 'form,' 'truth,' and 'reason.' Only then can the sword be drawn, and the spirit vanquished. Similarly, in my world, I wield a weapon called <i>biophysics</i> to explore the 'form,' 'truth,' and 'reason' of <i>biom-spirits</i>.</i></p>
+<!-- Add the CSS block at the top of your Markdown file -->
+<style>
+  .cute-frame {
+    border: 3px dashed pink;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fdf5e6; /* light beige */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 16px;
+    color: grey;
+  }
+</style>
+
+<!-- Wrap your content in a div with the 'cute-frame' class -->
+<div class="cute-frame">
+  <p><i>Have you noticed my avatar? It features <i>Yakou</i>, from a Japanese anime called <i>Mononoke</i>. Yakou’s job is to exorcise <i>youkai</i> (spirits) from the world. He wields a sword capable of slaying these spirits, but to use it, he must first uncover three key elements of the opponent: their 'form,' 'truth,' and 'reason.' Only then can the sword be drawn, and the spirit vanquished.</i></p>
+
+  <p><i>Similarly, in my world, I wield a weapon called <i>biophysics</i> to explore the 'form,' 'truth,' and 'reason' of <i>bio-spirits</i>.</i></p>
+</div>
+
+
 
 
 > *About Yumeng:*
@@ -59,7 +79,6 @@ Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. stud
 
 (Pretend to have a code)
 
-## *Muk Muk*
 
 Finally, again, it's so nice to meet you! I am also a game player that she enjoys bunches of games, especially **Metroidvania**. My favorite one is 'ori and the blind music', which has super super beautiful main theme music (as well as story). I also enjoy the animal crossing a lot! My favorite character is Fang lol, send all gifts to him~ 
 
