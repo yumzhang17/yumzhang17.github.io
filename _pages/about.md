@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-![Annia](../images/annia.png)
+<!--![Annia](../images/annia.png)-->
+<p style="color:grey;"><i>Have you noticed my avatar? It features <i>Yakou</i>, from a Japanese anime called <i>Mononoke</i>. Yakou’s job is to exorcise <i>youkai</i> (spirits) from the world. He wields a sword capable of slaying these spirits, but to use it, he must first uncover three key elements of the opponent: their 'form,' 'truth,' and 'reason.' Only then can the sword be drawn, and the spirit vanquished. Similarly, in my world, I wield a weapon called <i>biophysics</i> to explore the 'form,' 'truth,' and 'reason' of <i>biom-spirits</i>.</i></p>
 
-**(Get better view from Safari)**
-
-## *Waku Waku*
 
 > *About Yumeng:*
 
@@ -24,7 +22,6 @@ I am still not 100% sure about the direction of my future career... But I am wal
 
 Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games, and ACGer. 
 
-## *Drude Drude*
 
 > *About Yumeng's research*
 
@@ -50,9 +47,8 @@ Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games
 
 **(To be continued...)**
 
-## *Miaov Miaov*
 
-> *Tricky & Twinkle*
+> *About my babies*
 
 Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. study. She was called tricky since she missed the Halloween and I couldn't give her a treat. Twinkle was picked up on 2022/01/22. And she also becomes a light to shed tricky&my life in a very specific period. I so love my babies that they are really my treasure! Every moment in my life, they accompany with me, confort me, encourage me, and warm me. It's my biggest lucky to meet and live with them!! Miao~~
 
