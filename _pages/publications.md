@@ -4,7 +4,9 @@ title: "Fruits"
 permalink: /publications/
 author_profile: true
 ---
-[8] S. A. Shorkey#, **Y. Zhang**#, J. Sharp#, S. Clingman, L. Nguyen, J. Chen* and M. Chen*, "Tuning single-molecule ClyA nanopore tweezers for real-time tracking of flaviviral protease conformational dynamics" [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1)
+[9] S. A. Shorkey#, **Y. Zhang**#, J. Sharp#, S. Clingman, L. Nguyen, J. Chen* and M. Chen*, "Tuning single-molecule ClyA nanopore tweezers for real-time tracking of flaviviral protease conformational dynamics.", Biophys J. (2024). [ScienceDirect](https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1)
+
+[8] X. Gong#, Y. Zhang#, J. Chen. "Likely Over-Stabilization of Charge-Charge Interactions in CHARMM36m(w): A Case for a99SB-disp Water.", J. Phys. Chem. B. (2024). [ACS](https://pubs.acs.org/doi/10.1021/acs.jpcb.4c04777)
 
 [7] S. Li, **Y. Zhang** and J. Chen, "Protein Backbone Interactions and Secondary Structures in Biomolecular Phase Separation", *Biochem. Soc. Trans.*, BST20230618 **(2024)**. (invited review) [Portland Press](https://portlandpress.com/biochemsoctrans/article/52/1/319/234050/Backbone-interactions-and-secondary-structures-in)
 
