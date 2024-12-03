@@ -4,6 +4,13 @@ title: "Fruits"
 permalink: /publications/
 author_profile: true
 ---
+
+[12]. **Y. Zhang**, J. Zheng, B. Zhang*, “Protein Language Model Identifies Disordered, Conserved Motifs Driving Phase separation.” (Submitted)
+
+[11] **Y. Zhang**#, X. Liu# and J. Chen, "Intrinsically disordered proteins", in "Generalized-Ensemble Algorithms - Ideas and Applications", Edited by Sugita and Okomoto, *Springer*, 2024. (Submitted to Springer)
+
+[10] S. Barethiya#, S. Schultz#, **Y. Zhang***, J. Chen*, “Coarse-Grained Simulations of Phosphorylation Regulation of p53 Autoinhibition.” (Submitted to *Biochemistry*)
+
 [9] S. A. Shorkey#, **Y. Zhang**#, J. Sharp#, S. Clingman, L. Nguyen, J. Chen* and M. Chen*, "Tuning single-molecule ClyA nanopore tweezers for real-time tracking of flaviviral protease conformational dynamics.", *Biophys J.* (2024). [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0006349524007409?dgcid=coauthor)
 
 [8] X. Gong#, Y. Zhang#, J. Chen. "Likely Over-Stabilization of Charge-Charge Interactions in CHARMM36m(w): A Case for a99SB-disp Water.", *J. Phys. Chem. B.* (2024). [ACS](https://pubs.acs.org/doi/10.1021/acs.jpcb.4c04777)

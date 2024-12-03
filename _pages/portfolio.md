@@ -16,7 +16,7 @@ function toggleVisibility(section) {
 }
 </script>
 
-## <span style="color: green;">[Seeding@Biosystems]$ Intrinsically Disordered Proteins</span>
+## <span style="color: green;">[Seeding@Biophysics]$ Protein Dynamics and Functions</span>
 ><button onclick="toggleVisibility('spinMPO')">Enzyme Inhibition: SPIN/MPO</button>
 <div id="spinMPO" style="display:none;">
 <u>S</u>taphylococcal <u>P</u>eroxidase <u>IN</u>hibitor, SPIN, can bind to Human Myeloperoxidase (MPO) enzyme and inhibits the enzyme activities to prevent immune killing.
@@ -61,11 +61,11 @@ The nanopore tweezer is advanced in capturing the conformational dynamics of pro
 
 <img src="/images/clya.png" alt="clya">
 
-<p>Here, we applied nanopore tweezer as a powerful tool to investigate the conformational dynamics of West Nile Virus NS2B/NS3 proteases, which are potential drug target for WNV infection treatments. Our simulations identified a significant protein binding position on ClyA, which could be specifically engineered to capture NS2B/NS3 dynamics regarding their functional activities. <a href="https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1">Read more here.</a></p>
+<p>Here, we applied nanopore tweezer as a powerful tool to investigate the conformational dynamics of West Nile Virus NS2B/NS3 proteases, which are potential drug target for WNV infection treatments. Our simulations identified a significant protein binding position on ClyA, which could be specifically engineered to capture NS2B/NS3 dynamics regarding their functional activities. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006349524007409?dgcid=coauthor">Read more here.</a></p>
 </div>
 
 
-## <span style="color: blue;">[Seeding@Methodologies]$ Molecular Dynamics Simulations</span>
+## <span style="color: blue;">[Seeding@MD]$ Multi-scale MD Simulations</span>
 <button onclick="toggleVisibility('hyres')">CG Model: HyRes II</button>
 <div id="hyres" style="display:none;">
 <video controls width="450">
@@ -83,7 +83,6 @@ HyRes, the hydrid resolution coarse-grained model, was first developed by <a hre
 
 </div>
 
-
 <button onclick="toggleVisibility('rest3')">Enhanced sampling methods: REST3</button>
 <div id="rest3" style="display:none;">
 Replica Exchange with Solute Tempering (REST) is helpful in accelerating the explicited simulations. However, REST2 artifically scaled down the solute-solvent interactions under high temperature conditions, which over-compacted IDPs
@@ -91,5 +90,30 @@ Replica Exchange with Solute Tempering (REST) is helpful in accelerating the exp
 <p>Here, we treat the solue-solvent parameter freely and re-adjust it to approximatedly reproduce the optimal sampling under high temperatures. <a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01139">Read more here.</a></p>
 
 </div>
+
+<button onclick="toggleVisibility('c36mdisp')">Atomistic FF: C36mRb-disp</button>
+<div id="c36mdisp" style="display:none;">
+Recent years have witnessed drastic improvements in general-purpose explicit solvent protein force fields, partially driven by the need to study intrinsically disordered proteins (IDPs), and yet the state-of-the-art force fields such as CHARMM36m (c36m) and a99SB-disp still provide different performances in simulating disordered protein states, where c36m has a bias toward overcompaction for large IDPs.
+
+<p><img src="/images/c36m_disp.jpeg" alt="C36mRb_disp"></p>
+<p>Here, we examine the performance of c36m and a99SB-disp in describing the stabilities of a set of 46 amino acid backbone and side chain pairs in various configurations. We found that c36m systematically predicts stronger interactions compared to a99SB-disp.
+Guided by free energy decomposition, we evaluated if revising the charges alone could alleviate the severe overstabilization of salt bridges of c36m(w) vs a99SB-disp. The results suggested that the direct modification of protein–water interactions is also necessary. Toward this end, we proposed a tentative modification to c36m, referred to as c36mrb-disp, which combines modified Arg side chain charges, retuned backbone hydrogen bonding strength, and the a99SB-disp water model.
+<a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.4c04777">Read more here.</a></p>
+
+</div>
+
+
+## <span style="color: red;">[Seeding@ML&Modeling]$ Deep Learning Methodss</span>
+<button onclick="toggleVisibility('LLM_MLO')">Protein Language Model and Biophysics of MLOs</button>
+<div id="LLM_MLO" style="display:none;">
+
+Details in progress...
+
+<img src="/images/llp_example.png" alt="Protein_Language_Model">
+
+
+</div>
+
+
 
 
