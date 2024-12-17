@@ -8,7 +8,7 @@ redirect_from:
 ---
 # Curriculum Vitae
 
-Last Update Time: 2024/Nov
+Last Update Time: 2024/Dec
 
 [Download Yumeng's CV (PDF)](/images/CV_Yumeng.pdf)
 

@@ -107,7 +107,9 @@ Guided by free energy decomposition, we evaluated if revising the charges alone 
 <button onclick="toggleVisibility('LLM_MLO')">Protein Language Model and Biophysics of MLOs</button>
 <div id="LLM_MLO" style="display:none;">
 
-Details in progress...
+"Intrinsically disordered regions (IDRs) play a critical role in phase separation and are essential for the formation of membraneless organelles (MLOs). Mutations within IDRs can disrupt their multivalent interaction networks, altering phase behavior and contributing to various diseases. Therefore, examining the evolutionary fitness of IDRs provides valuable insights into the relationship between protein sequences and phase separation. In this study, we utilized the ESM2 protein language model to map the fitness landscape of IDRs. Our findings reveal that IDRs, particularly those actively participating in phase separation, contain conserved amino acids. This conservation is evident through mutational constraints predicted by ESM2 and supported by direct analyses of multiple sequence alignments. These conserved, disordered amino acids include residues traditionally identified as “stickers” as well as “spacers” and frequently form continuous sequence motifs. The strong conservation, combined with their critical role in phase separation, suggests that these motifs act as functional units under evolutionary selection to support stable MLO formation. Our findings underscore the insights into phase separation’s molecular grammar made possible through evolutionary analysis enabled by protein language models."
+
+<a href="https://www.biorxiv.org/content/10.1101/2024.12.12.628175v1.abstract">Read more here.</a>
 
 <img src="/images/llp_example.png" alt="Protein_Language_Model">
 

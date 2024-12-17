@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[12]. **Y. Zhang**, J. Zheng, B. Zhang, “Protein Language Model Identifies Disordered, Conserved Motifs Driving Phase separation.” (Submitted)
+[12]. **Y. Zhang**, J. Zheng, B. Zhang, “Protein Language Model Identifies Disordered, Conserved Motifs Driving Phase separation.” [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.12.628175v1.abstract)
 
 [11]. **Y. Zhang**#, X. Liu# and J. Chen, "Intrinsically disordered proteins", in "Generalized-Ensemble Algorithms - Ideas and Applications", Edited by Sugita and Okomoto, *Springer*, 2024. (Submitted to Springer)
 
