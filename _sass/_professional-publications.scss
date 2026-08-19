@@ -1,0 +1,140 @@
+/* Professional publication list consistent with the Home and Research pages. */
+
+.publication-terminal {
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid #253442;
+  border-radius: 7px;
+  background: #0d1720;
+  box-shadow: 0 12px 30px rgba(8, 24, 35, 0.13);
+  color: #d9e5ea;
+  font-family: Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+.publication-terminal__body {
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem 1rem 0.8rem;
+}
+
+.publication-bookshelf {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #9fd7e4;
+  font-family: Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: clamp(0.52rem, 1.16vw, 0.72rem);
+  font-weight: 400;
+  line-height: 1.18;
+  text-align: left;
+  text-shadow: 0 0 12px rgba(90, 205, 220, 0.12);
+}
+
+.publication-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--academic-accent);
+  background: var(--academic-surface);
+}
+
+.publication-toolbar p { margin: 0; color: var(--academic-muted); font-size: 0.76rem; }
+.publication-toolbar a { color: var(--academic-accent-dark); }
+.publication-note { white-space: nowrap; }
+
+.publication-year { margin-bottom: 2.6rem; }
+
+.publication-year > h2 {
+  margin: 0 0 0.85rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid #dce5e9;
+  color: var(--academic-ink);
+  font-size: 1.18rem;
+}
+
+.publication-year > h2 span {
+  color: var(--academic-accent-dark);
+  font-family: Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+}
+
+.publication-card {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 1rem;
+  border: 1px solid #dbe3e7;
+  border-radius: 5px;
+  background: #fff;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.publication-card:hover {
+  border-color: #aec4cc;
+  box-shadow: 0 8px 20px rgba(15, 79, 101, 0.07);
+  transform: translateY(-1px);
+}
+
+.publication-card__marker { text-align: center; }
+
+.publication-card__marker span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--academic-muted);
+  font-family: Monaco, Consolas, monospace;
+  font-size: 0.64rem;
+}
+
+.publication-card__marker strong {
+  display: block;
+  padding: 0.32rem 0.28rem;
+  border-radius: 3px;
+  background: #123f52;
+  color: #fff;
+  font-family: Monaco, Consolas, monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+}
+
+.publication-card__content h3 { margin: 0 0 0.38rem; font-size: 0.92rem; line-height: 1.4; }
+.publication-card__content h3 a { color: var(--academic-ink); text-decoration: none; }
+.publication-card__content h3 a::after { content: " ↗"; color: var(--academic-accent); font-size: 0.72rem; }
+.publication-card__content h3 a:hover { color: var(--academic-accent-dark); text-decoration: underline; }
+
+.publication-authors,
+.publication-meta { margin: 0 !important; font-size: 0.74rem !important; line-height: 1.5; }
+.publication-authors { color: #3a4953; }
+.publication-meta { margin-top: 0.2rem !important; color: var(--academic-muted); }
+
+.publication-status {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.12rem 0.36rem;
+  border-radius: 999px;
+  background: #e6f2ef;
+  color: #226b5a;
+  font-size: 0.57rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.publication-status--preprint { background: #f6edda; color: #865f18; }
+.publication-status--reviewed { background: #e7eff8; color: #345f86; }
+.publication-status--press { background: #eee9f7; color: #624985; }
+.publication-card--unlinked:hover { transform: none; }
+
+@media (max-width: 767px) {
+  .publication-terminal__body { padding-inline: 0.4rem; }
+  .publication-bookshelf { font-size: clamp(0.42rem, 2.15vw, 0.58rem); }
+  .publication-toolbar { display: block; }
+  .publication-note { margin-top: 0.45rem !important; white-space: normal; }
+  .publication-card { grid-template-columns: 3.5rem 1fr; gap: 0.75rem; padding: 0.85rem; }
+  .publication-card__content h3 { font-size: 0.84rem; }
+}

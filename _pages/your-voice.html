@@ -1,43 +1,55 @@
 ---
 layout: archive
-title: "Leave Your Voice Here~"
+title: "Your Voice"
 permalink: /your-voice/
 author_profile: true
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Leave Your Voice Here~</title>
-    <link rel="stylesheet" href="/assets/css/your-voice.css"> <!-- If you have any CSS -->
-</head>
-<body>
-    <div id="commentSection">
-        <!-- Text input for comments with formatting options -->
-        <textarea id="commentInput" placeholder="Leave your comment here"></textarea><br>
+<link rel="stylesheet" href="/assets/css/your-voice.css">
 
-        <!-- Nickname and Anonymous Option -->
-        <!-- <label for="nickname">Nickname (optional):</label> 
-        <input type="text" id="nickname" placeholder="Enter your nickname"> -->
-        <label for="nickname">Nickname (optional):</label>
-        <input type="text" id="nickname" placeholder="Enter your nickname" maxlength="25">
+<header class="voice-intro">
+  <p class="voice-intro__eyebrow">Open exchange</p>
+  <h2>Questions and ideas are always welcome.</h2>
+  <p>Science advances through thoughtful conversation. If something here connects with your work—or simply makes you curious—I would be glad to hear from you.</p>
+</header>
 
-
-        <!-- Submit Button -->
-        <!--button id="submitBtn">Submit</button> -->
-        <!--<button id="submitBtn"><i class="paw-icon">🐾</i> Submit</button>-->
-        <button id="submitBtn">
-        <img src="/images/catpawicon.jpg" alt="Submit" style="width:24px; height:24px; vertical-align: middle;">
-        Submit
-        </button>
-
-
-
-        <!-- Where comments will be displayed -->
-        <div id="commentsDisplay"></div>
+<section class="voice-compose" aria-labelledby="voice-compose-title">
+  <div class="voice-section-heading">
+    <div>
+      <span>01</span>
+      <h2 id="voice-compose-title">Leave a note</h2>
     </div>
-    <script src="/assets/js/your-voice.js" type="module"></script>
-</body>
-</html>
+    <p>Messages and replies are public. A name is optional.</p>
+  </div>
 
+  <form id="voiceForm">
+    <div class="voice-field">
+      <label for="commentInput">Message <span aria-hidden="true">*</span></label>
+      <textarea id="commentInput" rows="6" maxlength="800" required placeholder="Share a question, idea, or brief note..."></textarea>
+      <div class="voice-field__meta"><span>Public message</span><span id="characterCount">0 / 800</span></div>
+    </div>
+
+    <div class="voice-compose__footer">
+      <div class="voice-field voice-field--name">
+        <label for="nickname">Name or affiliation <small>(optional)</small></label>
+        <input type="text" id="nickname" placeholder="Anonymous" maxlength="40" autocomplete="name">
+      </div>
+      <button id="submitBtn" type="submit">Post message <span aria-hidden="true">→</span></button>
+    </div>
+    <p id="voiceStatus" class="voice-status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<section class="voice-notes" aria-labelledby="voice-notes-title">
+  <div class="voice-section-heading">
+    <div>
+      <span>02</span>
+      <h2 id="voice-notes-title">Recent notes</h2>
+    </div>
+  </div>
+  <div id="commentsDisplay" aria-live="polite">
+    <p class="voice-loading">Loading the conversation…</p>
+  </div>
+</section>
+
+<script src="/assets/js/your-voice.js" type="module"></script>

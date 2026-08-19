@@ -1,0 +1,71 @@
+/* Clean CV presentation and embedded PDF viewer. */
+
+.cv-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--academic-accent);
+  background: var(--academic-surface);
+}
+
+.cv-intro p { margin: 0; }
+
+.cv-intro__eyebrow {
+  color: var(--academic-ink);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.cv-intro__updated {
+  margin-top: 0.16rem !important;
+  color: var(--academic-muted);
+  font-size: 0.68rem;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--academic-accent-dark);
+  border-radius: 4px;
+  background: var(--academic-accent-dark);
+  color: #fff !important;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.cv-download:hover {
+  background: #0c3d4e;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.cv-viewer {
+  overflow: hidden;
+  border: 1px solid #d8e2e6;
+  border-radius: 5px;
+  background: #f4f7f8;
+  box-shadow: 0 10px 28px rgba(15, 79, 101, 0.06);
+}
+
+.cv-viewer object {
+  display: block;
+  width: 100%;
+  height: min(76vh, 880px);
+  min-height: 620px;
+  border: 0;
+}
+
+.cv-viewer p { padding: 1.5rem; font-size: 0.78rem; }
+
+@media (max-width: 767px) {
+  .cv-intro { align-items: flex-start; }
+  .cv-download { white-space: nowrap; }
+  .cv-viewer object { height: 70vh; min-height: 500px; }
+}

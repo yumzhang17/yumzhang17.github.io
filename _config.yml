@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yumeng"
+title                    : "Yumeng Zhang"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Yumeng Zhang"
+description              : &description "Computational biophysicist developing molecular models for protein dynamics and biomolecular organization"
 url                      : "https://yumzhang17.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yumzhang17.github.io"
@@ -80,14 +80,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yumi"
+  name             : "Yumeng Zhang"
   avatar           : "yum.png"
-  bio              : "Dog-otory && Cat-oholic"
-  location         : "MA"
-  employer         : "Postdoc@MIT (2024 -)"
+  bio              : "Computational Biophysicist"
+  location         : "Cambridge, Massachusetts"
+  postdoc_lab_name : "Zhang Lab at MIT"
+  postdoc_lab_url  : "https://zhanggroup.mit.edu/"
+  phd_lab_name     : "Chen Lab at UMass Amherst"
+  phd_lab_url      : "https://people.chem.umass.edu/jchenlab/"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=IBblRNIAAAAJ&hl=en" 
-  email            : "yumzhang1205@gmail.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=nUa8zmcAAAAJ&hl=en"
+  email            : "yumzhang@mit.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

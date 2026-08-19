@@ -1,87 +1,100 @@
 ---
 permalink: /
-title: "Hi! Nice to meet you~"
-excerpt: "About me"
+title: "Yumeng Zhang"
+excerpt: "Computational biophysicist working at the intersection of molecular dynamics (MD) simulation, machine learning (ML), and biomolecular dynamics"
 author_profile: true
+homepage: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<p class="home-kicker">Computational Biophysics · Molecular Simulation · Machine Learning</p>
 
-<!--![Annia](../images/annia.png)-->
-<!-- Add the CSS block at the top of your Markdown file -->
-<style>
-  .cute-frame {
-    border: 3px dashed grey;
-    padding: 20px;
-    margin: 10px;
-    background-color: #fdf5e6; /* light beige */
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 16px;
-    color: grey;
-  }
-</style>
+<div class="home-introduction">
+  <p>I am a Postdoctoral Associate in Chemistry at the <a href="https://www.mit.edu/">Massachusetts Institute of Technology</a>, working with <a href="https://zhanggroup.mit.edu/">Prof. Bin Zhang</a>. I received my Ph.D. in Chemistry from the <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>, where I worked with <a href="https://people.chem.umass.edu/jchenlab/">Prof. Jianhan Chen</a>.</p>
 
-<!-- Wrap your content in a div with the 'cute-frame' class -->
-<div class="cute-frame">
-  <p><i>Have you noticed my avatar? It features <i>Yakou</i>, from a Japanese anime called <i>Mononoke</i>. Yakou’s job is to exorcise <i>youkai</i> (spirits) from the world. He wields a sword capable of slaying these spirits, but to use it, he must first uncover three key elements of the opponent: their '<strong>form</strong> <strong>(形)</strong>'， '<strong>truth</strong> <strong>(真)</strong>'， and '<strong>reason</strong> <strong>(理)</strong>'. Only then can the sword be drawn, and the spirit vanquished.</i></p>
+  <p>My research develops physics-based and machine-learning-integrated molecular models to understand how biomolecular sequence, structure, and dynamics give rise to biological function. I am particularly interested in intrinsically disordered proteins, dynamic protein interactions, and biomolecular condensates.</p>
+</div>
 
-  <p><i>Similarly, in my world, I wield a weapon called <i>Biophysics</i>, which helps me to explore the '<strong>form</strong>', '<strong>truth</strong>', and '<strong>reason</strong>' of <i>bio-spirits</i>.</i></p>
+<div class="home-cv-card">
+  <div class="home-cv-card__copy">
+    <span>Yumeng's Curriculum Vitae</span>
+    <p>Updated by 2026/Aug.</p>
+  </div>
+  <div class="home-cv-card__actions">
+    <a href="/images/CV_Yumeng_Zhang.pdf" target="_blank" rel="noopener">View PDF <span aria-hidden="true">↗</span></a>
+    <a href="/images/CV_Yumeng_Zhang.pdf" download>Download <span aria-hidden="true">↓</span></a>
+  </div>
 </div>
 
 
+## Research Focus: Mechanistic Biophysics
 
-
-> *About Yumeng:*
-
-Hi! I am Yumeng Zhang, a computational, biophysical, chemist :D. I currently work as a postdoc associate at [Prof. Zhang's Lab](https://zhanggroup.mit.edu/). I am tring to use machine-learning and Molecular dynamics (MD) simulations to understand the large scale biomolecular activities (like liquid-liquid phase separation.) 
-
-I had my Ph.D. degree from University of Massachusetts Amherst on 2024 Feb. I was a grad student in [Prof. Chen's lab](https://people.chem.umass.edu/jchenlab/). There, I developed multi-scale enhanced sampling methods and applying them to study protein dynamics.
-
-I am now walking on the academic path towards science.
-
-Life Yumeng is a father of two cats (Tricky and Twinkle), a lover of video games, and ACGer. 
+<div class="research-focus-grid">
+  <a class="focus-card-link" href="/portfolio/#disease-relevant-biophysics">
+  <article>
+    <h3>Disease-Relevant Biophysics</h3>
+    <p>Understanding molecular mechanisms that shape health and disease.</p>
+    <ul>
+      <li>Neurodegeneration</li>
+      <li>Cancer-associated proteins</li>
+      <li>Post-translational modification</li>
+      <li>Immune and cellular regulation</li>
+    </ul>
+  </article>
+  </a>
+  <a class="focus-card-link" href="/portfolio/#protein-dynamics-interactions">
+  <article>
+    <h3>Protein Dynamics & Interactions</h3>
+    <p>Connecting dynamic molecular interactions to biological function.</p>
+    <ul>
+      <li>Protein-protein interactions</li>
+      <li>Biomolecular condensates</li>
+      <li>Enzymatic regulation</li>
+      <li>Multivalent protein assembly</li>
+    </ul>
+  </article>
+  </a>
+  <a class="focus-card-link" href="/portfolio/#multiscale-modeling">
+  <article>
+    <h3>Multiscale Molecular Modeling</h3>
+    <p>Developing physical models across molecular scales.</p>
+    <ul>
+      <li>Atomistic and coarse-grained MD</li>
+      <li>Force-field development</li>
+      <li>Enhanced sampling</li>
+      <li>Statistical and polymer theory</li>
+    </ul>
+  </article>
+  </a>
+  <a class="focus-card-link" href="/portfolio/#md-machine-learning">
+  <article>
+    <h3>MD + ML</h3>
+    <p>Building data-driven models grounded in molecular physics.</p>
+    <ul>
+      <li>Explainable models</li>
+      <li>Trustworthy predictive models</li>
+      <li>Generative molecular models</li>
+      <li>Multimodal learning</li>
+    </ul>
+  </article>
+  </a>
+</div>
 
 <!--
-> *About Yumeng's research*
-
-(All animations are made by Yumeng)
-
-**Multi-scale advanced sampling methods.**
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/H8nq5g0VLjI" title="HyRes Coarse-Grained Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-> "See this powerful coarse-grained model!!." [Hyres](https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d), [HyRes II](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.2c00974)
-
-**Multi-scale simulations for biomolecules.**
-<iframe width="933" height="525" src="https://www.youtube.com/embed/5FfRIcwVuv8" title="IDP_simulations_HyResII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-> "See these biomolecular dynamics!!" 
-
-**Liquid-liquid Phase separation**
-
-<iframe width="609" height="360" src="https://www.youtube.com/embed/pmq-ZX5E7sI" title="LLPS (cell)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-> "See the dynamics of the membraneless organels (top) and biomolecular condensate (down)!" [LLPS](https://pubs.acs.org/doi/full/10.1021/jacs.3c09195)
-
-**(To be continued...)**
-
-
-> *About my babies*
-
-Tricky came to me on 2019/11/01, the third month I came abroad for my Ph.D. study. She was called tricky since she missed the Halloween and I couldn't give her a treat. Twinkle was picked up on 2022/01/22. And she also becomes a light to shed tricky&my life in a very specific period. I so love my babies that they are really my treasure! Every moment in my life, they accompany with me, confort me, encourage me, and warm me. It's my biggest lucky to meet and live with them!! Miao~~
-
-
-<iframe width="553" height="524" src="https://www.youtube.com/embed/iHgesAk_Sik" title="Tricky&Twinkle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-***People enjoyed the video above, please pay by scanning the barcode below QwQ***
-
-(Pretend to have a code)
-
-
-Finally, again, it's so nice to meet you! I am also a game player that she enjoys bunches of games, especially **Metroidvania**. My favorite one is 'ori and the blind music', which has super super beautiful main theme music (as well as story). I also enjoy the animal crossing a lot! My favorite character is Fang lol, send all gifts to him~ 
+Temporarily hidden. Remove the surrounding HTML comment markers to restore this section.
+<div class="research-direction">
+  <span>Emerging Research Direction</span>
+  <h3>Network & Systems Biology</h3>
+  <p>I am interested in connecting molecular-scale mechanisms with protein-interaction, signaling, and regulatory networks to understand how collective biological behavior emerges across scales.</p>
+</div>
 -->
------------------------------
 
-***"To all my friends, the night is young, the music is loud, then play our song!"***
+## Current Interests
+
+- Biomolecular condensates and phase separation
+- Intrinsically disordered proteins and sequence–ensemble–function relationships
+- Network biology and systems-level biomolecular organization
+- Predictive modeling and molecular design for peptides and small molecules
+
+<p class="home-contact">I welcome conversations about my research and opportunities for scientific collaboration. <a href="mailto:yumzhang@mit.edu">Please feel free to contact me</a>.</p>

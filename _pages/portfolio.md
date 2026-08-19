@@ -1,121 +1,188 @@
 ---
 layout: archive
-title: "Seeding"
+title: "Research"
 permalink: /portfolio/
 author_profile: true
+research_page: true
 ---
 
-<script>
-function toggleVisibility(section) {
-  var x = document.getElementById(section);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+<div class="research-terminal" id="research-map">
+  <div class="terminal-bar" aria-hidden="true"><span></span><span></span><span></span><strong>yumeng@mechanistic-biophysics</strong></div>
+  <div class="terminal-body">
+    <p class="terminal-run"><span class="terminal-prompt">$</span> ./mechanistic-biophysics --integrate force-field AI</p>
+    <div class="terminal-diagram-grid">
+    <pre class="mechanistic-pipeline" aria-label="Force-field molecular dynamics and artificial intelligence connect protein ensembles to interactions, function, and disease">
+ [ FORCE FIELD / MD ]                    [ AI / ML ]
+ U(r) = U_bonded + U_nonbonded              [o_o]
+          F = -grad U                        /|_|\
+               \                              /
+                +-------------+--------------+
+                              v
+                    [ PROTEIN ENSEMBLES ]
+                              v
+        [ INTERACTIONS -&gt; FUNCTION -&gt; DISEASE ]</pre>
+    <pre class="biomolecule-pipeline" aria-label="A dynamic protein conformational ensemble leads to specific binding, dynamic binding, and condensate formation">
+ [ PROTEIN INTERACTION MODES ]
 
-## <span style="color: green;">[Seeding@Biophysics]$ Protein Dynamics and Functions</span>
-><button onclick="toggleVisibility('spinMPO')">Enzyme Inhibition: SPIN/MPO</button>
-<div id="spinMPO" style="display:none;">
-<u>S</u>taphylococcal <u>P</u>eroxidase <u>IN</u>hibitor, SPIN, can bind to Human Myeloperoxidase (MPO) enzyme and inhibits the enzyme activities to prevent immune killing.
-
-<img src="/images/spin.png" alt="SPIN&MPO">
-
-<p>Studies have identified a disorder-to-order transition on SPIN's N-terminal domain (NTD), which functions to inhibit the enzyme activity. However, the details of SPIN's functional mechanisms lack understanding.</p>
-
-<p>Here, we studied two SPIN homologs that present high sequence identity but different inhibitory abilities. By performing atomistic simulations, we discovered different binding and folding mechanisms adopted by two homologs, which could help to explain their functional discrepancies. <a href="https://www.frontiersin.org/articles/10.3389/fmolb.2023.1130189/full">Read more here.</a></p>
+ CONFORMATIONAL ENSEMBLE
+ states: ~\/\~   ~~\_/~   ~/\/~~
+                 |
+         +-------+-------+
+         ↓       ↓       ↓
+     SPECIFIC  DYNAMIC  CONDENSATE
+       ~\/\~    ~\/\~   ( ~\/\~  ~~ )
+        ||      . . .   ( ~~  ~\_/~ )
+      [====]   ~~\_/~   ( ~/\/~~  ~~ )</pre>
+    </div>
+    <p class="terminal-output"><span>status:</span> resolving molecular mechanisms across biological scales</p>
+  </div>
 </div>
 
-><button onclick="toggleVisibility('cypDp53')">Cellular Regulation: CypD/p53</button>
-<div id="cypDp53" style="display:none;">
-Cyclophilin D (CypD) is one crucial confirmed component of mitochondrial permeability transition pore (mPTP) regulator, which will be regulated by p53 N-terminal domain (p53-NTD).
+<nav class="research-map" aria-label="Research focus areas">
+  <a href="#disease-relevant-biophysics"><span class="research-map__icon">DB</span><strong>Disease-Relevant Biophysics</strong><small>Neurodegeneration · cancer · PTM · immunology</small></a>
+  <a href="#protein-dynamics-interactions"><span class="research-map__icon">PPI</span><strong>Protein Dynamics & Interactions</strong><small>Phase separation · p53 · viral proteins</small></a>
+  <a href="#multiscale-modeling"><span class="research-map__icon">MD</span><strong>Multiscale Molecular Modeling</strong><small>Atomistic · enhanced sampling · CG · theory</small></a>
+  <a href="#md-machine-learning"><span class="research-map__icon">ML</span><strong>MD + ML</strong><small>Protein language models · learned force fields</small></a>
+</nav>
 
-<img src="/images/cypd.png" alt="CypD/p53">
+<section class="research-track" id="disease-relevant-biophysics">
+  <header class="research-track__header">
+    <span class="terminal-command">[research@disease]$</span>
+    <h2>Disease-Relevant Biophysics</h2>
+    <p>Mechanistic studies linking protein dynamics, molecular interactions, and biomolecular organization to disease and regulation.</p>
+  </header>
 
-<p>Here, we studied the dynamic interactions between p53-NTD and CypD. We observed a p53-NTD binding surface on CypD, which were further identified by NMR experiments. The electornic interactions are found to be the driven forces for CypD/p53-NTD interactions. <a href="https://pubmed.ncbi.nlm.nih.gov/35341741/">Read more here.</a></p>
-</div>
+  <details class="research-topic" id="neurodegeneration">
+    <summary><span class="topic-prompt">01</span><span><strong>Neurodegeneration</strong><small>Protein structure, interactions, and condensate organization</small></span><span class="topic-count">3 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/jacs.3c09195"><span class="publication-venue">JACS</span><span><strong>Toward Accurate Simulation of Coupling between Protein Secondary Structure and Phase Separation</strong><small>Journal of the American Chemical Society, 2024</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://portlandpress.com/biochemsoctrans/article/52/1/319/234050/Backbone-interactions-and-secondary-structures-in"><span class="publication-venue">BST</span><span><strong>Backbone Interactions and Secondary Structures in Phase Separation of Disordered Proteins</strong><small>Biochemical Society Transactions, 2024</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/jacs.6c04891"><span class="publication-venue">JACS</span><span><strong>A Glimpse into the Initial Microsecond of Biomolecular Condensation</strong><small>Journal of the American Chemical Society, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-><button onclick="toggleVisibility('llps')">Liquid-liquid Phase Separation</button>
-<div id="llps" style="display:none;">
-Liquid-liquid phase separation (LLPS) is one critical phenomena populated in cells that help biomolecules organization, regulation, and function. There are many signficant factors that may affect biomolecular phase separations. Particularly, the secondary structure dynamics play significant roles in regulating LLPS. 
+  <details class="research-topic" id="cancer">
+    <summary><span class="topic-prompt">02</span><span><strong>Cancer</strong><small>p53 regulation and disease-associated protein mechanisms</small></span><span class="topic-count">2 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.sciencedirect.com/science/article/abs/pii/S0022283622001267"><span class="publication-venue">JMB</span><span><strong>Intrinsically Disordered N-terminal Domain of p53 Interacts with Mitochondrial PTP Regulator Cyclophilin D</strong><small>Journal of Molecular Biology, 2022</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12410095/"><span class="publication-venue">BIOC</span><span><strong>Coarse-Grained Simulations of Phosphorylation Regulation of p53 Autoinhibition</strong><small>Biochemistry, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<img src="/images/llps_2nd.png" alt="LLPS&2nd">
+  <details class="research-topic" id="ptm">
+    <summary><span class="topic-prompt">03</span><span><strong>Post-Translational Modification</strong><small>Phosphorylation-dependent regulation of protein ensembles</small></span><span class="topic-count">1 paper</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12410095/"><span class="publication-venue">BIOC</span><span><strong>Coarse-Grained Simulations of Phosphorylation Regulation of p53 Autoinhibition</strong><small>Biochemistry, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<p>Here, we studied how the dynamics of IDP secondary structures could affect their LLPS properties.</p> 
+  <details class="research-topic" id="immunology">
+    <summary><span class="topic-prompt">04</span><span><strong>Immunology</strong><small>Bacterial immune evasion and viral protease dynamics</small></span><span class="topic-count">2 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2023.1130189/full"><span class="publication-venue">FMB</span><span><strong>Coupled Binding and Folding of Disordered SPIN N-terminal Region in Myeloperoxidase Inhibition</strong><small>Frontiers in Molecular Biosciences, 2023</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://www.cell.com/biophysj/fulltext/S0006-3495(24)00740-9"><span class="publication-venue">BPJ</span><span><strong>Tracking Flaviviral Protease Conformational Dynamics by Tuning Single-Molecule Nanopore Tweezers</strong><small>Biophysical Journal, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<video controls width="250">
-    <source src="/images/from_cond.mp4" type="video/mp4">
-</video>
-<video controls width="250">
-    <source src="/images/from_disp.mp4" type="video/mp4">
-</video>
+  <a class="return-to-map" href="#research-map">↑ Return to research map</a>
+</section>
 
-<p>Our simulations suggests how mutations could affect LLPS by affecting the protein secondary strcutures. <a href="https://pubs.acs.org/doi/full/10.1021/jacs.3c09195">Read more here.</a></p>
-</div>
+<section class="research-track" id="protein-dynamics-interactions">
+  <header class="research-track__header">
+    <span class="terminal-command">[research@dynamics]$</span>
+    <h2>Protein Dynamics & Interactions</h2>
+    <p>How conformational ensembles and molecular interactions regulate recognition, catalysis, phase behavior, and biological function.</p>
+  </header>
 
-><button onclick="toggleVisibility('ClyA')">Nanopore Tweezer: WNV Proteases</button>
-<div id="ClyA" style="display:none;">
-The nanopore tweezer is advanced in capturing the conformational dynamics of protein at single molecular level! MD simulations, on the other hand, can offer the significant molecular insights to resolve the current signal related conformations! The combination of two methods can achieve 1+1 >> 2 effects!
+  <details class="research-topic" id="phase-separation">
+    <summary><span class="topic-prompt">01</span><span><strong>Phase Separation</strong><small>Structure, molecular grammar, and condensate dynamics</small></span><span class="topic-count">3 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/jacs.3c09195"><span class="publication-venue">JACS</span><span><strong>Toward Accurate Simulation of Coupling between Protein Secondary Structure and Phase Separation</strong><small>Journal of the American Chemical Society, 2024</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://portlandpress.com/biochemsoctrans/article/52/1/319/234050/Backbone-interactions-and-secondary-structures-in"><span class="publication-venue">BST</span><span><strong>Backbone Interactions and Secondary Structures in Phase Separation of Disordered Proteins</strong><small>Biochemical Society Transactions, 2024</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/jacs.6c04891"><span class="publication-venue">JACS</span><span><strong>A Glimpse into the Initial Microsecond of Biomolecular Condensation</strong><small>Journal of the American Chemical Society, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<img src="/images/clya.png" alt="clya">
+  <details class="research-topic" id="p53">
+    <summary><span class="topic-prompt">02</span><span><strong>p53</strong><small>Dynamic interactions and phosphorylation-regulated ensembles</small></span><span class="topic-count">2 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.sciencedirect.com/science/article/abs/pii/S0022283622001267"><span class="publication-venue">JMB</span><span><strong>Intrinsically Disordered N-terminal Domain of p53 Interacts with Mitochondrial PTP Regulator Cyclophilin D</strong><small>Journal of Molecular Biology, 2022</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12410095/"><span class="publication-venue">BIOC</span><span><strong>Coarse-Grained Simulations of Phosphorylation Regulation of p53 Autoinhibition</strong><small>Biochemistry, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<p>Here, we applied nanopore tweezer as a powerful tool to investigate the conformational dynamics of West Nile Virus NS2B/NS3 proteases, which are potential drug target for WNV infection treatments. Our simulations identified a significant protein binding position on ClyA, which could be specifically engineered to capture NS2B/NS3 dynamics regarding their functional activities. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006349524007409?dgcid=coauthor">Read more here.</a></p>
-</div>
+  <details class="research-topic" id="viral-proteins">
+    <summary><span class="topic-prompt">03</span><span><strong>Viral & Pathogen-Associated Proteins</strong><small>Enzyme inhibition and conformational dynamics</small></span><span class="topic-count">2 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2023.1130189/full"><span class="publication-venue">FMB</span><span><strong>Coupled Binding and Folding of Disordered SPIN N-terminal Region in Myeloperoxidase Inhibition</strong><small>Frontiers in Molecular Biosciences, 2023</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://www.cell.com/biophysj/fulltext/S0006-3495(24)00740-9"><span class="publication-venue">BPJ</span><span><strong>Tracking Flaviviral Protease Conformational Dynamics by Tuning Single-Molecule Nanopore Tweezers</strong><small>Biophysical Journal, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
+  <a class="return-to-map" href="#research-map">↑ Return to research map</a>
+</section>
 
-## <span style="color: blue;">[Seeding@MD]$ Multi-scale MD Simulations</span>
-<button onclick="toggleVisibility('hyres')">CG Model: HyRes II</button>
-<div id="hyres" style="display:none;">
-<video controls width="450">
-    <source src="/images/hyres_ani_update.mp4" type="video/mp4">
-</video>
-<p><a href="https://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp06736d">HyRes, </a><a href="https://pubs.acs.org/doi/full/10.1021/acs.jcim.2c00974">HyRes II.</a></p>
+<section class="research-track" id="multiscale-modeling">
+  <header class="research-track__header">
+    <span class="terminal-command">[research@simulation]$</span>
+    <h2>Multiscale Molecular Modeling</h2>
+    <p>Physics-based and data-informed methods for accurate, efficient simulation of folded, disordered, and assembling biomolecular systems.</p>
+  </header>
 
-HyRes, the hydrid resolution coarse-grained model, was first developed by <a href="https://scholar.google.com/citations?user=Lz-OnFEAAAAJ">Dr. Liu</a>, with qualitative predictions towards IDP secondary structures. The model has been further optimzied to more quantatatively to study IDP non-specific interactions and secondary structures. 
+  <details class="research-topic" id="atomistic-modeling">
+    <summary><span class="topic-prompt">01</span><span><strong>Atomistic Model Development</strong><small>Protein-water balance and transferable interactions</small></span><span class="topic-count">1 paper</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12013860/"><span class="publication-venue">JPCB</span><span><strong>Likely Over-Stabilization of Charge-Charge Interactions in CHARMM36m(w): A Case for a99SB-disp Water</strong><small>Journal of Physical Chemistry B, 2024</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<p>HyRes II presents high accuracy and performance when studing long-time scale (like <a href="https://pubs.acs.org/doi/full/10.1021/jacs.3c09195">llps.</a>) and complex system dynamics (like <a href="https://www.biorxiv.org/content/10.1101/2024.05.14.594247v1">proteases in ClyA nanopore.</a>).</p>
+  <details class="research-topic" id="enhanced-sampling">
+    <summary><span class="topic-prompt">02</span><span><strong>Enhanced Sampling</strong><small>Replica exchange, multiscale acceleration, and complex conformational dynamics</small></span><span class="topic-count">3 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.cell.com/biophysj/fulltext/S0006-3495(24)00740-9"><span class="publication-venue">BPJ</span><span><strong>Tracking Flaviviral Protease Conformational Dynamics by Tuning Single-Molecule Nanopore Tweezers</strong><small>Biophysical Journal, 2025</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10795075/"><span class="publication-venue">JCTC</span><span><strong>Re-balancing Replica Exchange with Solute Tempering for Sampling Dynamic Protein Conformations</strong><small>Journal of Chemical Theory and Computation, 2023</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<p>If you are interested, the model can be achieved at:</p>
-<p><a href="https://github.com/lslumass/HyRes_GPU">GitHub_link.</a></p>
-<p>HyRes II is now compiled with OpenMM and enabled GPU acceleration!</p>
+  <details class="research-topic" id="coarse-grained-modeling">
+    <summary><span class="topic-prompt">03</span><span><strong>Coarse-Grained Model Development</strong><small>Transferable force fields for dynamic protein systems</small></span><span class="topic-count">2 papers</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/acs.jcim.2c00974"><span class="publication-venue">JCIM</span><span><strong>Towards Accurate Coarse-Grained Simulations of Disordered Proteins and Their Dynamic Interactions</strong><small>Journal of Chemical Information and Modeling, 2022</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-</div>
+  <details class="research-topic" id="off-lattice-theory">
+    <summary><span class="topic-prompt">04</span><span><strong>Theory & Off-Lattice Modeling</strong><small>Valency, molecular organization, and phase behavior</small></span><span class="topic-count">1 paper</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.08.02.742325v1"><span class="publication-venue">THEORY</span><span><strong>Valency-Limited Molecular Dynamics Simulations of Stickers-and-Spacers Polymers Reveal a Tradeoff Between Condensation and Organization</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<button onclick="toggleVisibility('rest3')">Enhanced sampling methods: REST3</button>
-<div id="rest3" style="display:none;">
-Replica Exchange with Solute Tempering (REST) is helpful in accelerating the explicited simulations. However, REST2 artifically scaled down the solute-solvent interactions under high temperature conditions, which over-compacted IDPs
-<p><img src="/images/rest.png" alt="REST3"></p>
-<p>Here, we treat the solue-solvent parameter freely and re-adjust it to approximatedly reproduce the optimal sampling under high temperatures. <a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01139">Read more here.</a></p>
+  <a class="return-to-map" href="#research-map">↑ Return to research map</a>
+</section>
 
-</div>
+<section class="research-track" id="md-machine-learning">
+  <header class="research-track__header">
+    <span class="terminal-command">[research@ml]$</span>
+    <h2>MD + ML</h2>
+    <p>Interpretable and physics-aware learning approaches for biomolecular sequence, molecular interactions, conformational ensembles, and function.</p>
+  </header>
 
-<button onclick="toggleVisibility('c36mdisp')">Atomistic FF: C36mRb-disp</button>
-<div id="c36mdisp" style="display:none;">
-Recent years have witnessed drastic improvements in general-purpose explicit solvent protein force fields, partially driven by the need to study intrinsically disordered proteins (IDPs), and yet the state-of-the-art force fields such as CHARMM36m (c36m) and a99SB-disp still provide different performances in simulating disordered protein states, where c36m has a bias toward overcompaction for large IDPs.
+  <details class="research-topic" id="protein-language-models">
+    <summary><span class="topic-prompt">01</span><span><strong>Protein Language Models</strong><small>Evolutionary fitness and molecular grammar of disordered proteins</small></span><span class="topic-count">1 paper</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://elifesciences.org/reviewed-preprints/105309"><span class="publication-venue">eLife</span><span><strong>Protein Language Model Identifies Disordered, Conserved Motifs Implicated in Phase Separation</strong><small>eLife Reviewed Preprint, 2025</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-<p><img src="/images/c36m_disp.jpeg" alt="C36mRb_disp"></p>
-<p>Here, we examine the performance of c36m and a99SB-disp in describing the stabilities of a set of 46 amino acid backbone and side chain pairs in various configurations. We found that c36m systematically predicts stronger interactions compared to a99SB-disp.
-Guided by free energy decomposition, we evaluated if revising the charges alone could alleviate the severe overstabilization of salt bridges of c36m(w) vs a99SB-disp. The results suggested that the direct modification of protein–water interactions is also necessary. Toward this end, we proposed a tentative modification to c36m, referred to as c36mrb-disp, which combines modified Arg side chain charges, retuned backbone hydrogen bonding strength, and the a99SB-disp water model.
-<a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.4c04777">Read more here.</a></p>
+  <details class="research-topic" id="moff2">
+    <summary><span class="topic-prompt">02</span><span><strong>MOFF2</strong><small>Machine-learning-integrated, physics-grounded protein modeling</small></span><span class="topic-count">1 paper</span></summary>
+    <div class="publication-list">
+      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+    </div>
+  </details>
 
-</div>
-
-
-## <span style="color: red;">[Seeding@ML&Modeling]$ Deep Learning Methodss</span>
-<button onclick="toggleVisibility('LLM_MLO')">Protein Language Model and Biophysics of MLOs</button>
-<div id="LLM_MLO" style="display:none;">
-
-"Intrinsically disordered regions (IDRs) play a critical role in phase separation and are essential for the formation of membraneless organelles (MLOs). Mutations within IDRs can disrupt their multivalent interaction networks, altering phase behavior and contributing to various diseases. Therefore, examining the evolutionary fitness of IDRs provides valuable insights into the relationship between protein sequences and phase separation. In this study, we utilized the ESM2 protein language model to map the fitness landscape of IDRs. Our findings reveal that IDRs, particularly those actively participating in phase separation, contain conserved amino acids. This conservation is evident through mutational constraints predicted by ESM2 and supported by direct analyses of multiple sequence alignments. These conserved, disordered amino acids include residues traditionally identified as “stickers” as well as “spacers” and frequently form continuous sequence motifs. The strong conservation, combined with their critical role in phase separation, suggests that these motifs act as functional units under evolutionary selection to support stable MLO formation. Our findings underscore the insights into phase separation’s molecular grammar made possible through evolutionary analysis enabled by protein language models."
-
-<a href="https://www.biorxiv.org/content/10.1101/2024.12.12.628175v1.abstract">Read more here.</a>
-
-<img src="/images/llp_example.png" alt="Protein_Language_Model">
-
-
-</div>
-
-
-
-
+  <a class="return-to-map" href="#research-map">↑ Return to research map</a>
+</section>
