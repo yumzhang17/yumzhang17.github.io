@@ -11,7 +11,7 @@ title                    : "Yumeng Zhang"
 title_separator          : "-"
 name                     : &name "Yumeng Zhang"
 description              : &description "Computational biophysicist developing molecular models for protein dynamics and biomolecular organization"
-url                      : "https://yumzhang17.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yumzhang.com" # the canonical hostname for the custom GitHub Pages domain
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yumzhang17.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
