@@ -149,7 +149,9 @@ function createNote(comment, depth) {
 
 function renderComments(snapshot) {
   const comments = [];
-  snapshot.forEach((childSnapshot) => comments.push({ id: childSnapshot.key, ...childSnapshot.val() }));
+  snapshot.forEach((childSnapshot) => {
+    comments.push({ id: childSnapshot.key, ...childSnapshot.val() });
+  });
   commentsDisplay.replaceChildren();
 
   if (!comments.length) {

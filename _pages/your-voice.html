@@ -5,7 +5,7 @@ permalink: /your-voice/
 author_profile: true
 ---
 
-<link rel="stylesheet" href="/assets/css/your-voice.css">
+<link rel="stylesheet" href="/assets/css/your-voice.css?v={{ site.time | date: '%s' }}">
 
 <header class="voice-intro">
   <p class="voice-intro__eyebrow">Open exchange</p>
@@ -52,4 +52,4 @@ author_profile: true
   </div>
 </section>
 
-<script src="/assets/js/your-voice.js" type="module"></script>
+<script src="/assets/js/your-voice.js?v={{ site.time | date: '%s' }}" type="module"></script>
