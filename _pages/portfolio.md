@@ -141,7 +141,7 @@ research_page: true
     <div class="publication-list">
       <a class="publication-item" href="https://www.cell.com/biophysj/fulltext/S0006-3495(24)00740-9"><span class="publication-venue">BPJ</span><span><strong>Tracking Flaviviral Protease Conformational Dynamics by Tuning Single-Molecule Nanopore Tweezers</strong><small>Biophysical Journal, 2025</small></span><span class="publication-arrow">↗</span></a>
       <a class="publication-item" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10795075/"><span class="publication-venue">JCTC</span><span><strong>Re-balancing Replica Exchange with Solute Tempering for Sampling Dynamic Protein Conformations</strong><small>Journal of Chemical Theory and Computation, 2023</small></span><span class="publication-arrow">↗</span></a>
-      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/acs.jctc.6c01336"><span class="publication-venue">JCTC</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>Journal of Chemical Theory and Computation, 2026</small></span><span class="publication-arrow">↗</span></a>
     </div>
   </details>
 
@@ -149,7 +149,7 @@ research_page: true
     <summary><span class="topic-prompt">03</span><span><strong>Coarse-Grained Model Development</strong><small>Transferable force fields for dynamic protein systems</small></span><span class="topic-count">2 papers</span></summary>
     <div class="publication-list">
       <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/acs.jcim.2c00974"><span class="publication-venue">JCIM</span><span><strong>Towards Accurate Coarse-Grained Simulations of Disordered Proteins and Their Dynamic Interactions</strong><small>Journal of Chemical Information and Modeling, 2022</small></span><span class="publication-arrow">↗</span></a>
-      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/acs.jctc.6c01336"><span class="publication-venue">JCTC</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>Journal of Chemical Theory and Computation, 2026</small></span><span class="publication-arrow">↗</span></a>
     </div>
   </details>
 
@@ -180,7 +180,7 @@ research_page: true
   <details class="research-topic" id="moff2">
     <summary><span class="topic-prompt">02</span><span><strong>MOFF2</strong><small>Machine-learning-integrated, physics-grounded protein modeling</small></span><span class="topic-count">1 paper</span></summary>
     <div class="publication-list">
-      <a class="publication-item" href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1"><span class="publication-venue">MOFF2</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>bioRxiv, 2026</small></span><span class="publication-arrow">↗</span></a>
+      <a class="publication-item" href="https://pubs.acs.org/doi/10.1021/acs.jctc.6c01336"><span class="publication-venue">JCTC</span><span><strong>MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</strong><small>Journal of Chemical Theory and Computation, 2026</small></span><span class="publication-arrow">↗</span></a>
     </div>
   </details>
 

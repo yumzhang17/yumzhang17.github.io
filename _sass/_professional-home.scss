@@ -227,6 +227,10 @@
   text-transform: uppercase;
 }
 
+.author__urls .profile-link-icon {
+  color: inherit;
+}
+
 @media (max-width: 767px) {
   .page--home .page__title {
     font-size: 2rem;

@@ -22,11 +22,11 @@ author_profile: true
   </article>
 
   <article class="publication-card">
-    <div class="publication-card__marker"><span>14</span><strong>bioRxiv</strong></div>
+    <div class="publication-card__marker"><span>14</span><strong>JCTC</strong></div>
     <div class="publication-card__content">
-      <h3><a href="https://www.biorxiv.org/content/10.64898/2026.06.10.731384v1">MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</a></h3>
+      <h3><a href="https://pubs.acs.org/doi/10.1021/acs.jctc.6c01336">MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations</a></h3>
       <p class="publication-authors">S. Liu<sup>#</sup>, <strong>Y. Zhang</strong><sup>#</sup>, I. Riveros, C. Wang, and B. Zhang<sup>*</sup></p>
-      <p class="publication-meta"><em>bioRxiv</em>, 2026 <span class="publication-status publication-status--preprint">Preprint</span></p>
+      <p class="publication-meta"><em>Journal of Chemical Theory and Computation</em>, 2026 <span class="publication-status">Published</span></p>
     </div>
   </article>
 
